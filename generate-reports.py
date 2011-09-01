@@ -36,6 +36,11 @@ for bookinfo in books:
         
         freport = codecs.open('reports/%s.%d' % (bookinfo.osis, chapter), mode='w', encoding='utf-8')
         
+        freport.write("Any data appearing in the ESV text column herein is copyrighted:\n")
+        freport.write("The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles,\n")
+        freport.write("a publishing ministry of Good News Publishers. All rights reserved.\n")
+        freport.write("<http://www.crossway.org/rights-permissions/esv/>\n\n")
+        
         freport.write("Words in source text: %d\n" % len(original_words))
         freport.write("Words found by aligner: %d\n" % len(timings))
         freport.write("Number of <unk> words: %d\n" % len(filter(lambda t: t['word'] is None, timings)))
@@ -59,7 +64,7 @@ for bookinfo in books:
         
         timings_queue = list(timings)
         for timing in timings_queue:
-            freport.write('%.01fs ' % (timing['end'] - timing['start']))
+            freport.write('% 2.01fs ' % (timing['end'] - timing['start']))
             word = '<unk>'
             if timing['word'] is None:
                 word = '<unk>'

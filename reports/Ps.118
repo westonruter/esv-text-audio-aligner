@@ -1,469 +1,474 @@
+Any data appearing in the ESV text column herein is copyrighted:
+The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles,
+a publishing ministry of Good News Publishers. All rights reserved.
+<http://www.crossway.org/rights-permissions/esv/>
+
 Words in source text: 451
 Words found by aligner: 464
 Number of <unk> words: 13
 All words in the text are reported to be discovered in audio
-0.2s Oh             +++
-0.2s give           +++
-0.4s thanks         +++++
-0.1s to             ++
-0.1s the            ++
-0.4s LORD           ++++
-0.1s for            ++
-0.1s he             ++
-0.2s is             ++
-0.4s good           ++++
-0.1s for            ++
-0.2s his            ++
-0.7s steadfast      ++++++++
-0.4s love           ++++
-0.6s endures        +++++++
-0.5s forever        ++++++
-0.3s Let            ++++
-0.5s Israel         +++++
-0.5s say            ++++++
-0.2s His            +++
-0.7s steadfast      ++++++++
-0.3s love           ++++
-0.4s endures        +++++
-0.5s forever        ++++++
-0.2s Let            ++
-0.1s the            +
-0.2s house          +++
-0.2s of             ++
-0.4s Aaron          ++++
-0.4s say            +++++
-0.2s His            ++
-0.7s steadfast      +++++++
-0.4s love           ++++
-0.5s endures        +++++
-0.5s forever        ++++++
-0.2s Let            +++
-0.2s those          +++
-0.1s who            ++
-0.3s fear           ++++
-0.1s the            ++
-0.4s LORD           ++++
-0.4s say            ++++
-0.2s His            +++
-0.7s steadfast      +++++++
-0.3s love           ++++
-0.5s endures        ++++++
-0.5s forever        ++++++
-0.9s <unk>          ----------
-0.2s Out            +++
-0.2s of             ++
-0.1s my             ++
-0.5s distress       ++++++
-0.1s I              +
-0.4s called         +++++
-0.1s on             ++
-0.1s the            +
-0.5s LORD           +++++
-0.6s the            +++++++
-0.3s LORD           +++
-0.4s answered       +++++
-0.3s me             ++++
-0.2s and            ++
-0.3s set            ++++
-0.1s me             ++
-0.5s free           +++++
-0.5s The            +++++
-0.3s LORD           ++++
-0.1s is             ++
-0.2s on             ++
-0.2s my             ++
-0.5s side           +++++
-0.1s I              ++
-0.2s will           ++
-0.2s not            ++
-0.4s fear           +++++
-0.6s What           ++++++
-0.3s can            ++++
-0.4s man            ++++
-0.2s do             +++
-0.1s to             ++
-0.2s me             +++
-0.2s The            +++
-0.2s LORD           +++
-0.1s is             ++
-0.2s on             ++
-0.2s my             ++
-0.4s side           +++++
-0.1s as             ++
-0.2s my             ++
-0.5s helper         ++++++
-0.2s I              ++
-0.3s shall          +++
-0.2s look           +++
-0.1s in             ++
-0.5s triumph        ++++++
-0.2s on             ++
-0.3s those          +++
-0.1s who            ++
-0.2s hate           +++
-0.2s me             +++
-1.0s <unk>          -----------
-0.1s It             ++
-0.1s is             ++
-0.3s better         +++
-0.1s to             ++
-0.2s take           +++
-0.5s refuge         +++++
-0.1s in             +
-0.1s the            +
-0.3s LORD           ++++
-0.1s than           ++
-0.1s to             ++
-0.3s trust          ++++
-0.1s in             ++
-0.4s man            ++++
-0.3s It             +++
-0.1s is             ++
-0.2s better         +++
-0.1s to             ++
-0.2s take           +++
-0.5s refuge         +++++
-0.1s in             +
-0.1s the            +
-0.6s LORD           +++++++
-0.2s than           ++
-0.1s to             ++
-0.4s trust          +++++
-0.1s in             ++
-0.6s princes        +++++++
-0.9s <unk>          ----------
-0.3s All            ++++
-0.6s nations        +++++++
-0.6s surrounded     ++++++
-0.3s me             ++++
-0.1s in             ++
-0.1s the            +
-0.3s name           ++++
-0.1s of             +
-0.1s the            ++
-0.3s LORD           ++++
-0.1s I              ++
-0.3s cut            ++++
-0.2s them           +++
-0.4s off            ++++
-0.8s <unk>          ---------
-0.1s They           ++
-0.6s surrounded     +++++++
-0.3s me             +++
-0.6s surrounded     ++++++
-0.1s me             ++
-0.1s on             ++
-0.2s every          +++
-0.5s side           ++++++
-0.1s in             ++
-0.1s the            +
-0.3s name           +++
-0.1s of             +
-0.1s the            +
-0.5s LORD           +++++
-0.1s I              ++
-0.3s cut            +++
-0.2s them           ++
-0.4s off            ++++
-0.5s They           ++++++
-0.6s surrounded     ++++++
-0.1s me             ++
-0.4s like           ++++
-0.8s bees           ++++++++
-0.6s they           ++++++
-0.2s went           ++
-0.2s out            ++
-0.2s like           ++
-0.1s a              +
-0.5s fire           +++++
-0.3s among          +++
-0.8s thorns         ++++++++
-0.1s in             ++
-0.1s the            +
-0.2s name           +++
-0.1s of             +
-0.1s the            ++
-0.3s LORD           ++++
-0.1s I              +
-0.3s cut            +++
-0.2s them           ++
-0.4s off            +++++
-0.5s <unk>          ------
-0.2s I              ++
-0.2s was            +++
-0.3s pushed         ++++
-0.6s hard           ++++++
-0.2s so             ++
-0.1s that           ++
-0.1s I              +
-0.2s was            ++
-0.6s falling        ++++++
-0.1s but            ++
-0.1s the            +
-0.3s LORD           ++++
-0.3s helped         ++++
-0.2s me             +++
-0.7s The            +++++++
-0.3s LORD           +++
-0.1s is             ++
-0.1s my             ++
-0.5s strength       ++++++
-0.1s and            ++
-0.2s my             ++
-0.5s song           ++++++
-0.2s he             ++
-0.2s has            ++
-0.4s become         +++++
-0.2s my             ++
-0.7s salvation      ++++++++
-0.4s Glad           +++++
-0.5s songs          +++++
-0.2s of             ++
-0.6s salvation      +++++++
-0.1s are            ++
-0.1s in             +
-0.1s the            ++
-0.4s tents          ++++
-0.1s of             +
-0.1s the            ++
-0.6s righteous      ++++++
-0.8s <unk>          ---------
-0.2s The            +++
-0.2s right          ++
-0.3s hand           +++
-0.1s of             +
-0.1s the            +
-0.4s LORD           ++++
-0.3s does           +++
-0.7s valiantly      +++++++
-0.1s the            ++
-0.3s right          +++
-0.2s hand           +++
-0.1s of             +
-0.1s the            +
-0.4s LORD           ++++
-0.8s exalts         +++++++++
-0.2s the            +++
-0.2s right          +++
-0.2s hand           +++
-0.1s of             +
-0.1s the            +
-0.4s LORD           +++++
-0.3s does           ++++
-0.8s valiantly      +++++++++
-0.8s <unk>          ---------
-0.2s I              ++
-0.2s shall          +++
-0.2s not            +++
-0.4s die            ++++
-0.2s but            ++
-0.1s I              ++
-0.3s shall          +++
-0.4s live           +++++
-0.2s and            ++
-0.4s recount        ++++
-0.1s the            ++
-0.4s deeds          +++++
-0.1s of             +
-0.1s the            +
-0.4s LORD           +++++
-0.5s The            ++++++
-0.3s LORD           +++
-0.2s has            +++
-0.6s disciplined    +++++++
-0.2s me             ++
-0.8s severely       +++++++++
-0.1s but            ++
-0.1s he             +
-0.2s has            ++
-0.2s not            ++
-0.3s given          +++
-0.1s me             ++
-0.2s over           ++
-0.2s to             ++
-0.4s death          ++++
-0.3s Open           ++++
-0.2s to             ++
-0.2s me             ++
-0.1s the            ++
-0.4s gates          +++++
-0.2s of             ++
-0.7s righteousness  ++++++++
-0.2s that           +++
-0.2s I              ++
-0.2s may            +++
-0.3s enter          ++++
-0.3s through        ++++
-0.3s them           ++++
-0.1s and            ++
-0.2s give           ++
-0.5s thanks         +++++
-0.1s to             ++
-0.1s the            +
-0.5s LORD           +++++
-0.6s This           ++++++
-0.2s is             ++
-0.2s the            ++
-0.4s gate           ++++
-0.1s of             ++
-0.1s the            ++
-0.4s LORD           +++++
-0.2s the            +++
-0.6s righteous      +++++++
-0.3s shall          +++
-0.3s enter          +++
-0.3s through        ++++
-0.2s it             ++
-0.2s I              +++
-0.4s thank          ++++
-0.1s you            ++
-0.2s that           ++
-0.1s you            +
-0.2s have           ++
-0.5s answered       +++++
-0.3s me             +++
-0.2s and            ++
-0.1s have           ++
-0.5s become         +++++
-0.2s my             +++
-0.8s salvation      ++++++++
-0.1s The            ++
-0.5s stone          ++++++
-0.1s that           ++
-0.1s the            ++
-0.5s builders       ++++++
-0.6s rejected       +++++++
-0.4s has            +++++
-0.6s become         ++++++
-0.1s the            ++
-0.8s cornerstone    +++++++++
-0.7s <unk>          -------
-0.6s This           +++++++
-0.1s is             ++
-0.2s the            ++
-0.4s LORD's         +++++
-0.5s doing          +++++
-0.2s it             ++
-0.1s is             ++
-0.6s marvelous      +++++++
-0.2s in             ++
-0.2s our            +++
-0.6s eyes           ++++++
-0.6s This           +++++++
-0.1s is             ++
-0.1s the            ++
-0.2s day            +++
-0.1s that           ++
-0.1s the            +
-0.2s LORD           +++
-0.2s has            ++
-0.5s made           +++++
-0.2s let            ++
-0.2s us             ++
-0.7s rejoice        +++++++
-0.2s and            ++
-0.1s be             +
-0.4s glad           +++++
-0.1s in             ++
-0.2s it             ++
-0.8s <unk>          ---------
-0.3s Save           ++++
-0.2s us             ++
-0.2s we             ++
-0.4s pray           ++++
-0.1s O              +
-0.5s LORD           ++++++
-0.3s O              ++++
-0.3s LORD           ++++
-0.2s we             ++
-0.3s pray           ++++
-0.3s give           +++
-0.2s us             +++
-0.8s success        ++++++++
-0.6s <unk>          -------
-0.3s Blessed        ++++
-0.2s is             +++
-0.2s he             ++
-0.1s who            ++
-0.4s comes          ++++
-0.1s in             +
-0.1s the            +
-0.3s name           +++
-0.1s of             +
-0.1s the            +
-0.4s LORD           +++++
-0.9s <unk>          ---------
-0.2s We             ++
-0.4s bless          ++++
-0.2s you            +++
-0.2s from           ++
-0.1s the            +
-0.3s house          ++++
-0.1s of             +
-0.1s the            +
-0.4s LORD           +++++
-0.5s The            +++++
-0.3s LORD           ++++
-0.2s is             ++
-0.5s God            ++++++
-0.2s and            ++
-0.2s he             ++
-0.2s has            ++
-0.3s made           +++
-0.2s his            ++
-0.3s light          +++
-0.1s to             +
-0.4s shine          ++++
-0.3s upon           ++++
-0.3s us             ++++
-1.0s <unk>          ----------
-0.4s Bind           +++++
-0.2s the            ++
-0.5s festal         +++++
-0.7s sacrifice      +++++++
-0.2s with           ++
-0.8s cords          +++++++++
-0.2s up             ++
-0.1s to             +
-0.1s the            +
-0.5s horns          +++++
-0.1s of             +
-0.1s the            ++
-0.5s altar          +++++
-0.2s You            +++
-0.1s are            ++
-0.2s my             ++
-0.4s God            +++++
-0.1s and            ++
-0.1s I              +
-0.2s will           ++
-0.2s give           ++
-0.4s thanks         ++++
-0.2s to             ++
-0.2s you            +++
-0.2s you            +++
-0.2s are            ++
-0.2s my             +++
-0.6s God            ++++++
-0.1s I              ++
-0.2s will           +++
-0.5s extol          ++++++
-0.2s you            +++
-1.0s <unk>          -----------
-0.3s Oh             +++
-0.2s give           ++
-0.4s thanks         +++++
-0.1s to             ++
-0.1s the            +
-0.4s LORD           ++++
-0.2s for            ++
-0.2s he             ++
-0.2s is             ++
-0.5s good           +++++
-0.2s for            +++
-0.2s his            ++
-0.7s steadfast      +++++++
-0.3s love           ++++
-0.6s endures        ++++++
-0.6s forever        ++++++
+ 0.2s Oh             +++
+ 0.2s give           +++
+ 0.4s thanks         +++++
+ 0.1s to             ++
+ 0.1s the            ++
+ 0.4s LORD           ++++
+ 0.1s for            ++
+ 0.1s he             ++
+ 0.2s is             ++
+ 0.4s good           ++++
+ 0.1s for            ++
+ 0.2s his            ++
+ 0.7s steadfast      ++++++++
+ 0.4s love           ++++
+ 0.6s endures        +++++++
+ 0.5s forever        ++++++
+ 0.3s Let            ++++
+ 0.5s Israel         +++++
+ 0.5s say            ++++++
+ 0.2s His            +++
+ 0.7s steadfast      ++++++++
+ 0.3s love           ++++
+ 0.4s endures        +++++
+ 0.5s forever        ++++++
+ 0.2s Let            ++
+ 0.1s the            +
+ 0.2s house          +++
+ 0.2s of             ++
+ 0.4s Aaron          ++++
+ 0.4s say            +++++
+ 0.2s His            ++
+ 0.7s steadfast      +++++++
+ 0.4s love           ++++
+ 0.5s endures        +++++
+ 0.5s forever        ++++++
+ 0.2s Let            +++
+ 0.2s those          +++
+ 0.1s who            ++
+ 0.3s fear           ++++
+ 0.1s the            ++
+ 0.4s LORD           ++++
+ 0.4s say            ++++
+ 0.2s His            +++
+ 0.7s steadfast      +++++++
+ 0.3s love           ++++
+ 0.5s endures        ++++++
+ 0.5s forever        ++++++
+ 0.9s <unk>          ----------
+ 0.2s Out            +++
+ 0.2s of             ++
+ 0.1s my             ++
+ 0.5s distress       ++++++
+ 0.1s I              +
+ 0.4s called         +++++
+ 0.1s on             ++
+ 0.1s the            +
+ 0.5s LORD           +++++
+ 0.6s the            +++++++
+ 0.3s LORD           +++
+ 0.4s answered       +++++
+ 0.3s me             ++++
+ 0.2s and            ++
+ 0.3s set            ++++
+ 0.1s me             ++
+ 0.5s free           +++++
+ 0.5s The            +++++
+ 0.3s LORD           ++++
+ 0.1s is             ++
+ 0.2s on             ++
+ 0.2s my             ++
+ 0.5s side           +++++
+ 0.1s I              ++
+ 0.2s will           ++
+ 0.2s not            ++
+ 0.4s fear           +++++
+ 0.6s What           ++++++
+ 0.3s can            ++++
+ 0.4s man            ++++
+ 0.2s do             +++
+ 0.1s to             ++
+ 0.2s me             +++
+ 0.2s The            +++
+ 0.2s LORD           +++
+ 0.1s is             ++
+ 0.2s on             ++
+ 0.2s my             ++
+ 0.4s side           +++++
+ 0.1s as             ++
+ 0.2s my             ++
+ 0.5s helper         ++++++
+ 0.2s I              ++
+ 0.3s shall          +++
+ 0.2s look           +++
+ 0.1s in             ++
+ 0.5s triumph        ++++++
+ 0.2s on             ++
+ 0.3s those          +++
+ 0.1s who            ++
+ 0.2s hate           +++
+ 0.2s me             +++
+ 1.0s <unk>          -----------
+ 0.1s It             ++
+ 0.1s is             ++
+ 0.3s better         +++
+ 0.1s to             ++
+ 0.2s take           +++
+ 0.5s refuge         +++++
+ 0.1s in             +
+ 0.1s the            +
+ 0.3s LORD           ++++
+ 0.1s than           ++
+ 0.1s to             ++
+ 0.3s trust          ++++
+ 0.1s in             ++
+ 0.4s man            ++++
+ 0.3s It             +++
+ 0.1s is             ++
+ 0.2s better         +++
+ 0.1s to             ++
+ 0.2s take           +++
+ 0.5s refuge         +++++
+ 0.1s in             +
+ 0.1s the            +
+ 0.6s LORD           +++++++
+ 0.2s than           ++
+ 0.1s to             ++
+ 0.4s trust          +++++
+ 0.1s in             ++
+ 0.6s princes        +++++++
+ 0.9s <unk>          ----------
+ 0.3s All            ++++
+ 0.6s nations        +++++++
+ 0.6s surrounded     ++++++
+ 0.3s me             ++++
+ 0.1s in             ++
+ 0.1s the            +
+ 0.3s name           ++++
+ 0.1s of             +
+ 0.1s the            ++
+ 0.3s LORD           ++++
+ 0.1s I              ++
+ 0.3s cut            ++++
+ 0.2s them           +++
+ 0.4s off            ++++
+ 0.8s <unk>          ---------
+ 0.1s They           ++
+ 0.6s surrounded     +++++++
+ 0.3s me             +++
+ 0.6s surrounded     ++++++
+ 0.1s me             ++
+ 0.1s on             ++
+ 0.2s every          +++
+ 0.5s side           ++++++
+ 0.1s in             ++
+ 0.1s the            +
+ 0.3s name           +++
+ 0.1s of             +
+ 0.1s the            +
+ 0.5s LORD           +++++
+ 0.1s I              ++
+ 0.3s cut            +++
+ 0.2s them           ++
+ 0.4s off            ++++
+ 0.5s They           ++++++
+ 0.6s surrounded     ++++++
+ 0.1s me             ++
+ 0.4s like           ++++
+ 0.8s bees           ++++++++
+ 0.6s they           ++++++
+ 0.2s went           ++
+ 0.2s out            ++
+ 0.2s like           ++
+ 0.1s a              +
+ 0.5s fire           +++++
+ 0.3s among          +++
+ 0.8s thorns         ++++++++
+ 0.1s in             ++
+ 0.1s the            +
+ 0.2s name           +++
+ 0.1s of             +
+ 0.1s the            ++
+ 0.3s LORD           ++++
+ 0.1s I              +
+ 0.3s cut            +++
+ 0.2s them           ++
+ 0.4s off            +++++
+ 0.5s <unk>          ------
+ 0.2s I              ++
+ 0.2s was            +++
+ 0.3s pushed         ++++
+ 0.6s hard           ++++++
+ 0.2s so             ++
+ 0.1s that           ++
+ 0.1s I              +
+ 0.2s was            ++
+ 0.6s falling        ++++++
+ 0.1s but            ++
+ 0.1s the            +
+ 0.3s LORD           ++++
+ 0.3s helped         ++++
+ 0.2s me             +++
+ 0.7s The            +++++++
+ 0.3s LORD           +++
+ 0.1s is             ++
+ 0.1s my             ++
+ 0.5s strength       ++++++
+ 0.1s and            ++
+ 0.2s my             ++
+ 0.5s song           ++++++
+ 0.2s he             ++
+ 0.2s has            ++
+ 0.4s become         +++++
+ 0.2s my             ++
+ 0.7s salvation      ++++++++
+ 0.4s Glad           +++++
+ 0.5s songs          +++++
+ 0.2s of             ++
+ 0.6s salvation      +++++++
+ 0.1s are            ++
+ 0.1s in             +
+ 0.1s the            ++
+ 0.4s tents          ++++
+ 0.1s of             +
+ 0.1s the            ++
+ 0.6s righteous      ++++++
+ 0.8s <unk>          ---------
+ 0.2s The            +++
+ 0.2s right          ++
+ 0.3s hand           +++
+ 0.1s of             +
+ 0.1s the            +
+ 0.4s LORD           ++++
+ 0.3s does           +++
+ 0.7s valiantly      +++++++
+ 0.1s the            ++
+ 0.3s right          +++
+ 0.2s hand           +++
+ 0.1s of             +
+ 0.1s the            +
+ 0.4s LORD           ++++
+ 0.8s exalts         +++++++++
+ 0.2s the            +++
+ 0.2s right          +++
+ 0.2s hand           +++
+ 0.1s of             +
+ 0.1s the            +
+ 0.4s LORD           +++++
+ 0.3s does           ++++
+ 0.8s valiantly      +++++++++
+ 0.8s <unk>          ---------
+ 0.2s I              ++
+ 0.2s shall          +++
+ 0.2s not            +++
+ 0.4s die            ++++
+ 0.2s but            ++
+ 0.1s I              ++
+ 0.3s shall          +++
+ 0.4s live           +++++
+ 0.2s and            ++
+ 0.4s recount        ++++
+ 0.1s the            ++
+ 0.4s deeds          +++++
+ 0.1s of             +
+ 0.1s the            +
+ 0.4s LORD           +++++
+ 0.5s The            ++++++
+ 0.3s LORD           +++
+ 0.2s has            +++
+ 0.6s disciplined    +++++++
+ 0.2s me             ++
+ 0.8s severely       +++++++++
+ 0.1s but            ++
+ 0.1s he             +
+ 0.2s has            ++
+ 0.2s not            ++
+ 0.3s given          +++
+ 0.1s me             ++
+ 0.2s over           ++
+ 0.2s to             ++
+ 0.4s death          ++++
+ 0.3s Open           ++++
+ 0.2s to             ++
+ 0.2s me             ++
+ 0.1s the            ++
+ 0.4s gates          +++++
+ 0.2s of             ++
+ 0.7s righteousness  ++++++++
+ 0.2s that           +++
+ 0.2s I              ++
+ 0.2s may            +++
+ 0.3s enter          ++++
+ 0.3s through        ++++
+ 0.3s them           ++++
+ 0.1s and            ++
+ 0.2s give           ++
+ 0.5s thanks         +++++
+ 0.1s to             ++
+ 0.1s the            +
+ 0.5s LORD           +++++
+ 0.6s This           ++++++
+ 0.2s is             ++
+ 0.2s the            ++
+ 0.4s gate           ++++
+ 0.1s of             ++
+ 0.1s the            ++
+ 0.4s LORD           +++++
+ 0.2s the            +++
+ 0.6s righteous      +++++++
+ 0.3s shall          +++
+ 0.3s enter          +++
+ 0.3s through        ++++
+ 0.2s it             ++
+ 0.2s I              +++
+ 0.4s thank          ++++
+ 0.1s you            ++
+ 0.2s that           ++
+ 0.1s you            +
+ 0.2s have           ++
+ 0.5s answered       +++++
+ 0.3s me             +++
+ 0.2s and            ++
+ 0.1s have           ++
+ 0.5s become         +++++
+ 0.2s my             +++
+ 0.8s salvation      ++++++++
+ 0.1s The            ++
+ 0.5s stone          ++++++
+ 0.1s that           ++
+ 0.1s the            ++
+ 0.5s builders       ++++++
+ 0.6s rejected       +++++++
+ 0.4s has            +++++
+ 0.6s become         ++++++
+ 0.1s the            ++
+ 0.8s cornerstone    +++++++++
+ 0.7s <unk>          -------
+ 0.6s This           +++++++
+ 0.1s is             ++
+ 0.2s the            ++
+ 0.4s LORD's         +++++
+ 0.5s doing          +++++
+ 0.2s it             ++
+ 0.1s is             ++
+ 0.6s marvelous      +++++++
+ 0.2s in             ++
+ 0.2s our            +++
+ 0.6s eyes           ++++++
+ 0.6s This           +++++++
+ 0.1s is             ++
+ 0.1s the            ++
+ 0.2s day            +++
+ 0.1s that           ++
+ 0.1s the            +
+ 0.2s LORD           +++
+ 0.2s has            ++
+ 0.5s made           +++++
+ 0.2s let            ++
+ 0.2s us             ++
+ 0.7s rejoice        +++++++
+ 0.2s and            ++
+ 0.1s be             +
+ 0.4s glad           +++++
+ 0.1s in             ++
+ 0.2s it             ++
+ 0.8s <unk>          ---------
+ 0.3s Save           ++++
+ 0.2s us             ++
+ 0.2s we             ++
+ 0.4s pray           ++++
+ 0.1s O              +
+ 0.5s LORD           ++++++
+ 0.3s O              ++++
+ 0.3s LORD           ++++
+ 0.2s we             ++
+ 0.3s pray           ++++
+ 0.3s give           +++
+ 0.2s us             +++
+ 0.8s success        ++++++++
+ 0.6s <unk>          -------
+ 0.3s Blessed        ++++
+ 0.2s is             +++
+ 0.2s he             ++
+ 0.1s who            ++
+ 0.4s comes          ++++
+ 0.1s in             +
+ 0.1s the            +
+ 0.3s name           +++
+ 0.1s of             +
+ 0.1s the            +
+ 0.4s LORD           +++++
+ 0.9s <unk>          ---------
+ 0.2s We             ++
+ 0.4s bless          ++++
+ 0.2s you            +++
+ 0.2s from           ++
+ 0.1s the            +
+ 0.3s house          ++++
+ 0.1s of             +
+ 0.1s the            +
+ 0.4s LORD           +++++
+ 0.5s The            +++++
+ 0.3s LORD           ++++
+ 0.2s is             ++
+ 0.5s God            ++++++
+ 0.2s and            ++
+ 0.2s he             ++
+ 0.2s has            ++
+ 0.3s made           +++
+ 0.2s his            ++
+ 0.3s light          +++
+ 0.1s to             +
+ 0.4s shine          ++++
+ 0.3s upon           ++++
+ 0.3s us             ++++
+ 1.0s <unk>          ----------
+ 0.4s Bind           +++++
+ 0.2s the            ++
+ 0.5s festal         +++++
+ 0.7s sacrifice      +++++++
+ 0.2s with           ++
+ 0.8s cords          +++++++++
+ 0.2s up             ++
+ 0.1s to             +
+ 0.1s the            +
+ 0.5s horns          +++++
+ 0.1s of             +
+ 0.1s the            ++
+ 0.5s altar          +++++
+ 0.2s You            +++
+ 0.1s are            ++
+ 0.2s my             ++
+ 0.4s God            +++++
+ 0.1s and            ++
+ 0.1s I              +
+ 0.2s will           ++
+ 0.2s give           ++
+ 0.4s thanks         ++++
+ 0.2s to             ++
+ 0.2s you            +++
+ 0.2s you            +++
+ 0.2s are            ++
+ 0.2s my             +++
+ 0.6s God            ++++++
+ 0.1s I              ++
+ 0.2s will           +++
+ 0.5s extol          ++++++
+ 0.2s you            +++
+ 1.0s <unk>          -----------
+ 0.3s Oh             +++
+ 0.2s give           ++
+ 0.4s thanks         +++++
+ 0.1s to             ++
+ 0.1s the            +
+ 0.4s LORD           ++++
+ 0.2s for            ++
+ 0.2s he             ++
+ 0.2s is             ++
+ 0.5s good           +++++
+ 0.2s for            +++
+ 0.2s his            ++
+ 0.7s steadfast      +++++++
+ 0.3s love           ++++
+ 0.6s endures        ++++++
+ 0.6s forever        ++++++
 Words left off: 0

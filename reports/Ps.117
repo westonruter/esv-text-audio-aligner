@@ -1,34 +1,39 @@
+Any data appearing in the ESV text column herein is copyrighted:
+The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles,
+a publishing ministry of Good News Publishers. All rights reserved.
+<http://www.crossway.org/rights-permissions/esv/>
+
 Words in source text: 28
 Words found by aligner: 29
 Number of <unk> words: 1
 All words in the text are reported to be discovered in audio
-0.3s Praise        +++
-0.6s <unk>         -------
-0.1s the           +
-0.3s LORD          +++
-0.1s all           +
-0.7s nations       +++++++
-0.6s Extol         +++++++
-0.4s him           ++++
-0.4s all           ++++
-0.6s peoples       +++++++
-0.4s For           +++++
-0.4s great         +++++
-0.2s is            ++
-0.1s his           ++
-0.7s steadfast     +++++++
-0.3s love          +++
-0.4s toward        ++++
-0.2s us            +++
-0.2s and           ++
-0.1s the           +
-0.7s faithfulness  +++++++
-0.1s of            +
-0.1s the           +
-0.5s LORD          +++++
-0.7s endures       +++++++
-0.6s forever       ++++++
-0.4s Praise        +++++
-0.1s the           ++
-0.4s LORD          +++++
+ 0.3s Praise        +++
+ 0.6s <unk>         -------
+ 0.1s the           +
+ 0.3s LORD          +++
+ 0.1s all           +
+ 0.7s nations       +++++++
+ 0.6s Extol         +++++++
+ 0.4s him           ++++
+ 0.4s all           ++++
+ 0.6s peoples       +++++++
+ 0.4s For           +++++
+ 0.4s great         +++++
+ 0.2s is            ++
+ 0.1s his           ++
+ 0.7s steadfast     +++++++
+ 0.3s love          +++
+ 0.4s toward        ++++
+ 0.2s us            +++
+ 0.2s and           ++
+ 0.1s the           +
+ 0.7s faithfulness  +++++++
+ 0.1s of            +
+ 0.1s the           +
+ 0.5s LORD          +++++
+ 0.7s endures       +++++++
+ 0.6s forever       ++++++
+ 0.4s Praise        +++++
+ 0.1s the           ++
+ 0.4s LORD          +++++
 Words left off: 0
