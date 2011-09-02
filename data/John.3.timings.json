@@ -1,0 +1,3945 @@
+{
+  "verses": {
+    "1": {
+      "start": 0.09, 
+      "end": 4.23
+    }, 
+    "2": {
+      "start": 4.92, 
+      "end": 14.27
+    }, 
+    "3": {
+      "start": 15.07, 
+      "end": 23.59
+    }, 
+    "4": {
+      "start": 23.92, 
+      "end": 31.37
+    }, 
+    "5": {
+      "start": 32.72, 
+      "end": 40.92
+    }, 
+    "6": {
+      "start": 41.29, 
+      "end": 46.68
+    }, 
+    "7": {
+      "start": 47.4, 
+      "end": 50.47
+    }, 
+    "8": {
+      "start": 51.05, 
+      "end": 61.41
+    }, 
+    "9": {
+      "start": 63.01, 
+      "end": 66.48
+    }, 
+    "10": {
+      "start": 67.2, 
+      "end": 73.04
+    }, 
+    "11": {
+      "start": 73.49, 
+      "end": 80.71
+    }, 
+    "12": {
+      "start": 82.15, 
+      "end": 87.69
+    }, 
+    "13": {
+      "start": 88.73, 
+      "end": 94.0
+    }, 
+    "14": {
+      "start": 95.1, 
+      "end": 100.24
+    }, 
+    "15": {
+      "start": 100.45, 
+      "end": 104.73
+    }, 
+    "16": {
+      "start": 105.08, 
+      "end": 113.32
+    }, 
+    "17": {
+      "start": 113.82, 
+      "end": 121.8
+    }, 
+    "18": {
+      "start": 122.0, 
+      "end": 132.15
+    }, 
+    "19": {
+      "start": 132.42, 
+      "end": 140.77
+    }, 
+    "20": {
+      "start": 141.45, 
+      "end": 149.22
+    }, 
+    "21": {
+      "start": 149.25, 
+      "end": 155.96
+    }, 
+    "22": {
+      "start": 157.34, 
+      "end": 163.79
+    }, 
+    "23": {
+      "start": 164.6, 
+      "end": 171.21
+    }, 
+    "24": {
+      "start": 171.62, 
+      "end": 173.56
+    }, 
+    "25": {
+      "start": 174.87, 
+      "end": 179.57
+    }, 
+    "26": {
+      "start": 180.07, 
+      "end": 188.78
+    }, 
+    "27": {
+      "start": 189.62, 
+      "end": 195.79
+    }, 
+    "28": {
+      "start": 196.37, 
+      "end": 201.92
+    }, 
+    "29": {
+      "start": 201.95, 
+      "end": 214.58
+    }, 
+    "30": {
+      "start": 215.35, 
+      "end": 219.41
+    }, 
+    "31": {
+      "start": 219.75, 
+      "end": 229.94
+    }, 
+    "32": {
+      "start": 230.46, 
+      "end": 235.1
+    }, 
+    "33": {
+      "start": 236.23, 
+      "end": 241.4
+    }, 
+    "34": {
+      "start": 241.93, 
+      "end": 247.64
+    }, 
+    "35": {
+      "start": 248.2, 
+      "end": 252.76
+    }, 
+    "36": {
+      "start": 253.64, 
+      "end": 262.83
+    }
+  }, 
+  "words": [
+    {
+      "start": 0.09, 
+      "end": 0.22, 
+      "word": "Now"
+    }, 
+    {
+      "start": 0.22, 
+      "end": 0.35, 
+      "word": "there"
+    }, 
+    {
+      "start": 0.35, 
+      "end": 0.48, 
+      "word": "was"
+    }, 
+    {
+      "start": 0.48, 
+      "end": 0.56, 
+      "word": "a"
+    }, 
+    {
+      "start": 0.56, 
+      "end": 0.83, 
+      "word": "man"
+    }, 
+    {
+      "start": 0.83, 
+      "end": 0.91, 
+      "word": "of"
+    }, 
+    {
+      "start": 0.91, 
+      "end": 1.01, 
+      "word": "the"
+    }, 
+    {
+      "start": 1.01, 
+      "end": 1.7, 
+      "word": "Pharisees"
+    }, 
+    {
+      "start": 1.7, 
+      "end": 2.13, 
+      "word": "named"
+    }, 
+    {
+      "start": 2.13, 
+      "end": 2.99, 
+      "word": "Nicodemus"
+    }, 
+    {
+      "start": 3.07, 
+      "end": 3.19, 
+      "word": "a"
+    }, 
+    {
+      "start": 3.19, 
+      "end": 3.52, 
+      "word": "ruler"
+    }, 
+    {
+      "start": 3.52, 
+      "end": 3.61, 
+      "word": "of"
+    }, 
+    {
+      "start": 3.61, 
+      "end": 3.72, 
+      "word": "the"
+    }, 
+    {
+      "start": 3.72, 
+      "end": 4.23, 
+      "word": "Jews"
+    }, 
+    {
+      "start": 4.92, 
+      "end": 5.15, 
+      "word": "This"
+    }, 
+    {
+      "start": 5.15, 
+      "end": 5.35, 
+      "word": "man"
+    }, 
+    {
+      "start": 5.35, 
+      "end": 5.62, 
+      "word": "came"
+    }, 
+    {
+      "start": 5.62, 
+      "end": 5.72, 
+      "word": "to"
+    }, 
+    {
+      "start": 5.72, 
+      "end": 6.11, 
+      "word": "Jesus"
+    }, 
+    {
+      "start": 6.11, 
+      "end": 6.27, 
+      "word": "by"
+    }, 
+    {
+      "start": 6.27, 
+      "end": 6.57, 
+      "word": "night"
+    }, 
+    {
+      "start": 6.57, 
+      "end": 6.69, 
+      "word": "and"
+    }, 
+    {
+      "start": 6.69, 
+      "end": 6.94, 
+      "word": "said"
+    }, 
+    {
+      "start": 6.94, 
+      "end": 7.05, 
+      "word": "to"
+    }, 
+    {
+      "start": 7.05, 
+      "end": 7.3, 
+      "word": "him"
+    }, 
+    {
+      "start": 7.83, 
+      "end": 8.39, 
+      "word": "Rabbi"
+    }, 
+    {
+      "start": 8.64, 
+      "end": 8.77, 
+      "word": "we"
+    }, 
+    {
+      "start": 8.77, 
+      "end": 9.01, 
+      "word": "know"
+    }, 
+    {
+      "start": 9.01, 
+      "end": 9.15, 
+      "word": "that"
+    }, 
+    {
+      "start": 9.15, 
+      "end": 9.29, 
+      "word": "you"
+    }, 
+    {
+      "start": 9.29, 
+      "end": 9.36, 
+      "word": "are"
+    }, 
+    {
+      "start": 9.36, 
+      "end": 9.43, 
+      "word": "a"
+    }, 
+    {
+      "start": 9.43, 
+      "end": 9.82, 
+      "word": "teacher"
+    }, 
+    {
+      "start": 9.82, 
+      "end": 10.07, 
+      "word": "come"
+    }, 
+    {
+      "start": 10.07, 
+      "end": 10.27, 
+      "word": "from"
+    }, 
+    {
+      "start": 10.27, 
+      "end": 10.72, 
+      "word": "God"
+    }, 
+    {
+      "start": 11.03, 
+      "end": 11.15, 
+      "word": "for"
+    }, 
+    {
+      "start": 11.15, 
+      "end": 11.33, 
+      "word": "no"
+    }, 
+    {
+      "start": 11.33, 
+      "end": 11.46, 
+      "word": "one"
+    }, 
+    {
+      "start": 11.46, 
+      "end": 11.65, 
+      "word": "can"
+    }, 
+    {
+      "start": 11.65, 
+      "end": 11.85, 
+      "word": "do"
+    }, 
+    {
+      "start": 11.85, 
+      "end": 12.09, 
+      "word": "these"
+    }, 
+    {
+      "start": 12.09, 
+      "end": 12.55, 
+      "word": "signs"
+    }, 
+    {
+      "start": 12.55, 
+      "end": 12.72, 
+      "word": "that"
+    }, 
+    {
+      "start": 12.72, 
+      "end": 12.79, 
+      "word": "you"
+    }, 
+    {
+      "start": 12.79, 
+      "end": 13.08, 
+      "word": "do"
+    }, 
+    {
+      "start": 13.08, 
+      "end": 13.38, 
+      "word": "unless"
+    }, 
+    {
+      "start": 13.38, 
+      "end": 13.75, 
+      "word": "God"
+    }, 
+    {
+      "start": 13.75, 
+      "end": 13.86, 
+      "word": "is"
+    }, 
+    {
+      "start": 13.86, 
+      "end": 14.13, 
+      "word": "with"
+    }, 
+    {
+      "start": 14.13, 
+      "end": 14.27, 
+      "word": "him"
+    }, 
+    {
+      "start": 15.07, 
+      "end": 15.53, 
+      "word": "Jesus"
+    }, 
+    {
+      "start": 15.53, 
+      "end": 15.92, 
+      "word": "answered"
+    }, 
+    {
+      "start": 15.92, 
+      "end": 16.2, 
+      "word": "him"
+    }, 
+    {
+      "start": 16.2, 
+      "end": 16.91, 
+      "word": null
+    }, 
+    {
+      "start": 17.01, 
+      "end": 17.41, 
+      "word": "Truly"
+    }, 
+    {
+      "start": 17.41, 
+      "end": 17.81, 
+      "word": "truly"
+    }, 
+    {
+      "start": 17.81, 
+      "end": 17.9, 
+      "word": "I"
+    }, 
+    {
+      "start": 17.9, 
+      "end": 18.17, 
+      "word": "say"
+    }, 
+    {
+      "start": 18.17, 
+      "end": 18.32, 
+      "word": "to"
+    }, 
+    {
+      "start": 18.32, 
+      "end": 18.57, 
+      "word": "you"
+    }, 
+    {
+      "start": 18.97, 
+      "end": 19.41, 
+      "word": "unless"
+    }, 
+    {
+      "start": 19.41, 
+      "end": 19.67, 
+      "word": "one"
+    }, 
+    {
+      "start": 19.67, 
+      "end": 19.82, 
+      "word": "is"
+    }, 
+    {
+      "start": 19.82, 
+      "end": 20.15, 
+      "word": "born"
+    }, 
+    {
+      "start": 20.15, 
+      "end": 20.65, 
+      "word": "again"
+    }, 
+    {
+      "start": 21.02, 
+      "end": 21.11, 
+      "word": "he"
+    }, 
+    {
+      "start": 21.11, 
+      "end": 21.47, 
+      "word": "cannot"
+    }, 
+    {
+      "start": 21.47, 
+      "end": 21.73, 
+      "word": "see"
+    }, 
+    {
+      "start": 21.73, 
+      "end": 21.83, 
+      "word": "the"
+    }, 
+    {
+      "start": 21.83, 
+      "end": 22.21, 
+      "word": "kingdom"
+    }, 
+    {
+      "start": 22.21, 
+      "end": 22.31, 
+      "word": "of"
+    }, 
+    {
+      "start": 22.31, 
+      "end": 22.76, 
+      "word": "God"
+    }, 
+    {
+      "start": 22.88, 
+      "end": 23.59, 
+      "word": null
+    }, 
+    {
+      "start": 23.92, 
+      "end": 24.55, 
+      "word": "Nicodemus"
+    }, 
+    {
+      "start": 24.55, 
+      "end": 24.8, 
+      "word": "said"
+    }, 
+    {
+      "start": 24.8, 
+      "end": 24.92, 
+      "word": "to"
+    }, 
+    {
+      "start": 24.92, 
+      "end": 25.07, 
+      "word": "him"
+    }, 
+    {
+      "start": 25.07, 
+      "end": 25.13, 
+      "word": "How"
+    }, 
+    {
+      "start": 25.2, 
+      "end": 26.2, 
+      "word": "can"
+    }, 
+    {
+      "start": 26.2, 
+      "end": 26.29, 
+      "word": "a"
+    }, 
+    {
+      "start": 26.29, 
+      "end": 26.54, 
+      "word": "man"
+    }, 
+    {
+      "start": 26.54, 
+      "end": 26.64, 
+      "word": "be"
+    }, 
+    {
+      "start": 26.64, 
+      "end": 27.07, 
+      "word": "born"
+    }, 
+    {
+      "start": 27.07, 
+      "end": 27.2, 
+      "word": "when"
+    }, 
+    {
+      "start": 27.2, 
+      "end": 27.29, 
+      "word": "he"
+    }, 
+    {
+      "start": 27.29, 
+      "end": 27.45, 
+      "word": "is"
+    }, 
+    {
+      "start": 27.45, 
+      "end": 27.92, 
+      "word": "old"
+    }, 
+    {
+      "start": 28.47, 
+      "end": 28.64, 
+      "word": "Can"
+    }, 
+    {
+      "start": 28.64, 
+      "end": 28.8, 
+      "word": "he"
+    }, 
+    {
+      "start": 28.8, 
+      "end": 29.11, 
+      "word": "enter"
+    }, 
+    {
+      "start": 29.11, 
+      "end": 29.17, 
+      "word": "a"
+    }, 
+    {
+      "start": 29.17, 
+      "end": 29.51, 
+      "word": "second"
+    }, 
+    {
+      "start": 29.51, 
+      "end": 29.83, 
+      "word": "time"
+    }, 
+    {
+      "start": 29.83, 
+      "end": 30.01, 
+      "word": "into"
+    }, 
+    {
+      "start": 30.01, 
+      "end": 30.14, 
+      "word": "his"
+    }, 
+    {
+      "start": 30.14, 
+      "end": 30.44, 
+      "word": "mother's"
+    }, 
+    {
+      "start": 30.44, 
+      "end": 30.73, 
+      "word": "womb"
+    }, 
+    {
+      "start": 30.73, 
+      "end": 30.83, 
+      "word": "and"
+    }, 
+    {
+      "start": 30.83, 
+      "end": 30.91, 
+      "word": "be"
+    }, 
+    {
+      "start": 30.91, 
+      "end": 31.37, 
+      "word": "born"
+    }, 
+    {
+      "start": 32.72, 
+      "end": 33.28, 
+      "word": "Jesus"
+    }, 
+    {
+      "start": 33.28, 
+      "end": 33.77, 
+      "word": "answered"
+    }, 
+    {
+      "start": 34.43, 
+      "end": 34.82, 
+      "word": "Truly"
+    }, 
+    {
+      "start": 34.82, 
+      "end": 35.23, 
+      "word": "truly"
+    }, 
+    {
+      "start": 35.23, 
+      "end": 35.32, 
+      "word": "I"
+    }, 
+    {
+      "start": 35.32, 
+      "end": 35.61, 
+      "word": "say"
+    }, 
+    {
+      "start": 35.61, 
+      "end": 35.69, 
+      "word": "to"
+    }, 
+    {
+      "start": 35.69, 
+      "end": 35.95, 
+      "word": "you"
+    }, 
+    {
+      "start": 36.33, 
+      "end": 36.72, 
+      "word": "unless"
+    }, 
+    {
+      "start": 36.72, 
+      "end": 36.9, 
+      "word": "one"
+    }, 
+    {
+      "start": 36.9, 
+      "end": 37.03, 
+      "word": "is"
+    }, 
+    {
+      "start": 37.03, 
+      "end": 37.27, 
+      "word": "born"
+    }, 
+    {
+      "start": 37.27, 
+      "end": 37.41, 
+      "word": "of"
+    }, 
+    {
+      "start": 37.41, 
+      "end": 37.82, 
+      "word": "water"
+    }, 
+    {
+      "start": 37.82, 
+      "end": 37.91, 
+      "word": "and"
+    }, 
+    {
+      "start": 37.91, 
+      "end": 38.0, 
+      "word": "the"
+    }, 
+    {
+      "start": 38.0, 
+      "end": 38.49, 
+      "word": "Spirit"
+    }, 
+    {
+      "start": 39.06, 
+      "end": 39.21, 
+      "word": "he"
+    }, 
+    {
+      "start": 39.21, 
+      "end": 39.71, 
+      "word": "cannot"
+    }, 
+    {
+      "start": 39.71, 
+      "end": 39.93, 
+      "word": "enter"
+    }, 
+    {
+      "start": 39.93, 
+      "end": 40.03, 
+      "word": "the"
+    }, 
+    {
+      "start": 40.03, 
+      "end": 40.37, 
+      "word": "kingdom"
+    }, 
+    {
+      "start": 40.37, 
+      "end": 40.48, 
+      "word": "of"
+    }, 
+    {
+      "start": 40.48, 
+      "end": 40.92, 
+      "word": "God"
+    }, 
+    {
+      "start": 41.29, 
+      "end": 42.05, 
+      "word": "That"
+    }, 
+    {
+      "start": 42.05, 
+      "end": 42.2, 
+      "word": "which"
+    }, 
+    {
+      "start": 42.2, 
+      "end": 42.36, 
+      "word": "is"
+    }, 
+    {
+      "start": 42.36, 
+      "end": 42.56, 
+      "word": "born"
+    }, 
+    {
+      "start": 42.56, 
+      "end": 42.62, 
+      "word": "of"
+    }, 
+    {
+      "start": 42.62, 
+      "end": 42.71, 
+      "word": "the"
+    }, 
+    {
+      "start": 42.71, 
+      "end": 43.31, 
+      "word": "flesh"
+    }, 
+    {
+      "start": 43.41, 
+      "end": 43.57, 
+      "word": "is"
+    }, 
+    {
+      "start": 43.57, 
+      "end": 44.07, 
+      "word": "flesh"
+    }, 
+    {
+      "start": 44.52, 
+      "end": 44.68, 
+      "word": "and"
+    }, 
+    {
+      "start": 44.68, 
+      "end": 44.85, 
+      "word": "that"
+    }, 
+    {
+      "start": 44.85, 
+      "end": 45.0, 
+      "word": "which"
+    }, 
+    {
+      "start": 45.0, 
+      "end": 45.12, 
+      "word": "is"
+    }, 
+    {
+      "start": 45.12, 
+      "end": 45.34, 
+      "word": "born"
+    }, 
+    {
+      "start": 45.34, 
+      "end": 45.41, 
+      "word": "of"
+    }, 
+    {
+      "start": 45.41, 
+      "end": 45.5, 
+      "word": "the"
+    }, 
+    {
+      "start": 45.5, 
+      "end": 46.06, 
+      "word": "Spirit"
+    }, 
+    {
+      "start": 46.06, 
+      "end": 46.18, 
+      "word": "is"
+    }, 
+    {
+      "start": 46.18, 
+      "end": 46.68, 
+      "word": "spirit"
+    }, 
+    {
+      "start": 47.4, 
+      "end": 47.57, 
+      "word": "Do"
+    }, 
+    {
+      "start": 47.57, 
+      "end": 47.76, 
+      "word": "not"
+    }, 
+    {
+      "start": 47.76, 
+      "end": 48.07, 
+      "word": "marvel"
+    }, 
+    {
+      "start": 48.07, 
+      "end": 48.19, 
+      "word": "that"
+    }, 
+    {
+      "start": 48.19, 
+      "end": 48.26, 
+      "word": "I"
+    }, 
+    {
+      "start": 48.26, 
+      "end": 48.55, 
+      "word": "said"
+    }, 
+    {
+      "start": 48.55, 
+      "end": 48.62, 
+      "word": "to"
+    }, 
+    {
+      "start": 48.62, 
+      "end": 48.85, 
+      "word": "you"
+    }, 
+    {
+      "start": 49.25, 
+      "end": 49.36, 
+      "word": "You"
+    }, 
+    {
+      "start": 49.36, 
+      "end": 49.63, 
+      "word": "must"
+    }, 
+    {
+      "start": 49.63, 
+      "end": 49.73, 
+      "word": "be"
+    }, 
+    {
+      "start": 49.73, 
+      "end": 49.96, 
+      "word": "born"
+    }, 
+    {
+      "start": 49.96, 
+      "end": 50.47, 
+      "word": "again"
+    }, 
+    {
+      "start": 51.05, 
+      "end": 51.25, 
+      "word": "The"
+    }, 
+    {
+      "start": 51.25, 
+      "end": 51.6, 
+      "word": "wind"
+    }, 
+    {
+      "start": 51.6, 
+      "end": 52.08, 
+      "word": "blows"
+    }, 
+    {
+      "start": 52.08, 
+      "end": 52.23, 
+      "word": "where"
+    }, 
+    {
+      "start": 52.23, 
+      "end": 52.38, 
+      "word": "it"
+    }, 
+    {
+      "start": 52.38, 
+      "end": 52.88, 
+      "word": "wishes"
+    }, 
+    {
+      "start": 53.09, 
+      "end": 53.27, 
+      "word": "and"
+    }, 
+    {
+      "start": 53.27, 
+      "end": 53.35, 
+      "word": "you"
+    }, 
+    {
+      "start": 53.35, 
+      "end": 53.64, 
+      "word": "hear"
+    }, 
+    {
+      "start": 53.64, 
+      "end": 53.81, 
+      "word": "its"
+    }, 
+    {
+      "start": 53.81, 
+      "end": 54.39, 
+      "word": "sound"
+    }, 
+    {
+      "start": 54.7, 
+      "end": 54.87, 
+      "word": "but"
+    }, 
+    {
+      "start": 54.87, 
+      "end": 54.96, 
+      "word": "you"
+    }, 
+    {
+      "start": 54.96, 
+      "end": 55.09, 
+      "word": "do"
+    }, 
+    {
+      "start": 55.09, 
+      "end": 55.25, 
+      "word": "not"
+    }, 
+    {
+      "start": 55.25, 
+      "end": 55.44, 
+      "word": "know"
+    }, 
+    {
+      "start": 55.44, 
+      "end": 55.58, 
+      "word": "where"
+    }, 
+    {
+      "start": 55.58, 
+      "end": 55.65, 
+      "word": "it"
+    }, 
+    {
+      "start": 55.65, 
+      "end": 56.03, 
+      "word": "comes"
+    }, 
+    {
+      "start": 56.03, 
+      "end": 56.24, 
+      "word": "from"
+    }, 
+    {
+      "start": 56.24, 
+      "end": 56.33, 
+      "word": "or"
+    }, 
+    {
+      "start": 56.33, 
+      "end": 56.5, 
+      "word": "where"
+    }, 
+    {
+      "start": 56.5, 
+      "end": 56.59, 
+      "word": "it"
+    }, 
+    {
+      "start": 56.59, 
+      "end": 57.14, 
+      "word": "goes"
+    }, 
+    {
+      "start": 57.99, 
+      "end": 58.28, 
+      "word": "So"
+    }, 
+    {
+      "start": 58.28, 
+      "end": 58.34, 
+      "word": "it"
+    }, 
+    {
+      "start": 58.34, 
+      "end": 58.54, 
+      "word": "is"
+    }, 
+    {
+      "start": 58.54, 
+      "end": 58.76, 
+      "word": "with"
+    }, 
+    {
+      "start": 58.76, 
+      "end": 59.24, 
+      "word": "everyone"
+    }, 
+    {
+      "start": 59.24, 
+      "end": 59.35, 
+      "word": "who"
+    }, 
+    {
+      "start": 59.35, 
+      "end": 59.48, 
+      "word": "is"
+    }, 
+    {
+      "start": 59.48, 
+      "end": 59.78, 
+      "word": "born"
+    }, 
+    {
+      "start": 59.78, 
+      "end": 59.86, 
+      "word": "of"
+    }, 
+    {
+      "start": 59.86, 
+      "end": 59.95, 
+      "word": "the"
+    }, 
+    {
+      "start": 59.95, 
+      "end": 60.45, 
+      "word": "Spirit"
+    }, 
+    {
+      "start": 60.55, 
+      "end": 61.41, 
+      "word": null
+    }, 
+    {
+      "start": 63.01, 
+      "end": 63.69, 
+      "word": "Nicodemus"
+    }, 
+    {
+      "start": 63.69, 
+      "end": 63.9, 
+      "word": "said"
+    }, 
+    {
+      "start": 63.9, 
+      "end": 64.1, 
+      "word": "to"
+    }, 
+    {
+      "start": 64.1, 
+      "end": 64.35, 
+      "word": "him"
+    }, 
+    {
+      "start": 64.95, 
+      "end": 65.26, 
+      "word": "How"
+    }, 
+    {
+      "start": 65.26, 
+      "end": 65.42, 
+      "word": "can"
+    }, 
+    {
+      "start": 65.42, 
+      "end": 65.6, 
+      "word": "these"
+    }, 
+    {
+      "start": 65.6, 
+      "end": 65.95, 
+      "word": "things"
+    }, 
+    {
+      "start": 65.95, 
+      "end": 66.48, 
+      "word": "be"
+    }, 
+    {
+      "start": 67.2, 
+      "end": 67.73, 
+      "word": "Jesus"
+    }, 
+    {
+      "start": 67.73, 
+      "end": 68.16, 
+      "word": "answered"
+    }, 
+    {
+      "start": 68.16, 
+      "end": 68.34, 
+      "word": "him"
+    }, 
+    {
+      "start": 69.3, 
+      "end": 69.42, 
+      "word": "Are"
+    }, 
+    {
+      "start": 69.42, 
+      "end": 69.54, 
+      "word": "you"
+    }, 
+    {
+      "start": 69.54, 
+      "end": 69.69, 
+      "word": "the"
+    }, 
+    {
+      "start": 69.69, 
+      "end": 70.08, 
+      "word": "teacher"
+    }, 
+    {
+      "start": 70.08, 
+      "end": 70.16, 
+      "word": "of"
+    }, 
+    {
+      "start": 70.16, 
+      "end": 70.85, 
+      "word": "Israel"
+    }, 
+    {
+      "start": 70.99, 
+      "end": 71.15, 
+      "word": "and"
+    }, 
+    {
+      "start": 71.15, 
+      "end": 71.34, 
+      "word": "yet"
+    }, 
+    {
+      "start": 71.34, 
+      "end": 71.46, 
+      "word": "you"
+    }, 
+    {
+      "start": 71.46, 
+      "end": 71.58, 
+      "word": "do"
+    }, 
+    {
+      "start": 71.58, 
+      "end": 71.74, 
+      "word": "not"
+    }, 
+    {
+      "start": 71.74, 
+      "end": 72.32, 
+      "word": "understand"
+    }, 
+    {
+      "start": 72.32, 
+      "end": 72.49, 
+      "word": "these"
+    }, 
+    {
+      "start": 72.49, 
+      "end": 73.04, 
+      "word": "things"
+    }, 
+    {
+      "start": 73.49, 
+      "end": 73.98, 
+      "word": "Truly"
+    }, 
+    {
+      "start": 73.98, 
+      "end": 74.33, 
+      "word": "truly"
+    }, 
+    {
+      "start": 74.33, 
+      "end": 74.41, 
+      "word": "I"
+    }, 
+    {
+      "start": 74.41, 
+      "end": 74.68, 
+      "word": "say"
+    }, 
+    {
+      "start": 74.68, 
+      "end": 74.82, 
+      "word": "to"
+    }, 
+    {
+      "start": 74.82, 
+      "end": 75.05, 
+      "word": "you"
+    }, 
+    {
+      "start": 75.4, 
+      "end": 75.51, 
+      "word": "we"
+    }, 
+    {
+      "start": 75.51, 
+      "end": 75.83, 
+      "word": "speak"
+    }, 
+    {
+      "start": 75.83, 
+      "end": 75.96, 
+      "word": "of"
+    }, 
+    {
+      "start": 75.96, 
+      "end": 76.11, 
+      "word": "what"
+    }, 
+    {
+      "start": 76.11, 
+      "end": 76.23, 
+      "word": "we"
+    }, 
+    {
+      "start": 76.23, 
+      "end": 76.69, 
+      "word": "know"
+    }, 
+    {
+      "start": 76.69, 
+      "end": 76.93, 
+      "word": "and"
+    }, 
+    {
+      "start": 76.93, 
+      "end": 77.12, 
+      "word": "bear"
+    }, 
+    {
+      "start": 77.12, 
+      "end": 77.48, 
+      "word": "witness"
+    }, 
+    {
+      "start": 77.48, 
+      "end": 77.59, 
+      "word": "to"
+    }, 
+    {
+      "start": 77.59, 
+      "end": 77.74, 
+      "word": "what"
+    }, 
+    {
+      "start": 77.74, 
+      "end": 77.88, 
+      "word": "we"
+    }, 
+    {
+      "start": 77.88, 
+      "end": 77.99, 
+      "word": "have"
+    }, 
+    {
+      "start": 77.99, 
+      "end": 78.47, 
+      "word": "seen"
+    }, 
+    {
+      "start": 78.96, 
+      "end": 79.11, 
+      "word": "but"
+    }, 
+    {
+      "start": 79.11, 
+      "end": 79.26, 
+      "word": "you"
+    }, 
+    {
+      "start": 79.26, 
+      "end": 79.37, 
+      "word": "do"
+    }, 
+    {
+      "start": 79.37, 
+      "end": 79.55, 
+      "word": "not"
+    }, 
+    {
+      "start": 79.55, 
+      "end": 79.94, 
+      "word": "receive"
+    }, 
+    {
+      "start": 79.94, 
+      "end": 80.06, 
+      "word": "our"
+    }, 
+    {
+      "start": 80.06, 
+      "end": 80.71, 
+      "word": "testimony"
+    }, 
+    {
+      "start": 82.15, 
+      "end": 82.31, 
+      "word": "If"
+    }, 
+    {
+      "start": 82.34, 
+      "end": 82.45, 
+      "word": "I"
+    }, 
+    {
+      "start": 82.45, 
+      "end": 82.64, 
+      "word": "have"
+    }, 
+    {
+      "start": 82.64, 
+      "end": 82.94, 
+      "word": "told"
+    }, 
+    {
+      "start": 82.94, 
+      "end": 83.13, 
+      "word": "you"
+    }, 
+    {
+      "start": 83.13, 
+      "end": 83.49, 
+      "word": "earthly"
+    }, 
+    {
+      "start": 83.49, 
+      "end": 83.92, 
+      "word": "things"
+    }, 
+    {
+      "start": 83.92, 
+      "end": 84.04, 
+      "word": "and"
+    }, 
+    {
+      "start": 84.04, 
+      "end": 84.12, 
+      "word": "you"
+    }, 
+    {
+      "start": 84.12, 
+      "end": 84.22, 
+      "word": "do"
+    }, 
+    {
+      "start": 84.22, 
+      "end": 84.42, 
+      "word": "not"
+    }, 
+    {
+      "start": 84.42, 
+      "end": 84.97, 
+      "word": "believe"
+    }, 
+    {
+      "start": 85.42, 
+      "end": 85.59, 
+      "word": "how"
+    }, 
+    {
+      "start": 85.59, 
+      "end": 85.74, 
+      "word": "can"
+    }, 
+    {
+      "start": 85.74, 
+      "end": 85.84, 
+      "word": "you"
+    }, 
+    {
+      "start": 85.84, 
+      "end": 86.18, 
+      "word": "believe"
+    }, 
+    {
+      "start": 86.18, 
+      "end": 86.29, 
+      "word": "if"
+    }, 
+    {
+      "start": 86.29, 
+      "end": 86.38, 
+      "word": "I"
+    }, 
+    {
+      "start": 86.38, 
+      "end": 86.64, 
+      "word": "tell"
+    }, 
+    {
+      "start": 86.64, 
+      "end": 86.73, 
+      "word": "you"
+    }, 
+    {
+      "start": 86.73, 
+      "end": 87.17, 
+      "word": "heavenly"
+    }, 
+    {
+      "start": 87.17, 
+      "end": 87.69, 
+      "word": "things"
+    }, 
+    {
+      "start": 88.73, 
+      "end": 88.97, 
+      "word": "No"
+    }, 
+    {
+      "start": 88.97, 
+      "end": 89.15, 
+      "word": "one"
+    }, 
+    {
+      "start": 89.15, 
+      "end": 89.41, 
+      "word": "has"
+    }, 
+    {
+      "start": 89.41, 
+      "end": 89.98, 
+      "word": "ascended"
+    }, 
+    {
+      "start": 89.98, 
+      "end": 90.16, 
+      "word": "into"
+    }, 
+    {
+      "start": 90.16, 
+      "end": 90.56, 
+      "word": "heaven"
+    }, 
+    {
+      "start": 90.82, 
+      "end": 91.24, 
+      "word": "except"
+    }, 
+    {
+      "start": 91.24, 
+      "end": 91.47, 
+      "word": "he"
+    }, 
+    {
+      "start": 91.47, 
+      "end": 91.66, 
+      "word": "who"
+    }, 
+    {
+      "start": 91.66, 
+      "end": 92.26, 
+      "word": "descended"
+    }, 
+    {
+      "start": 92.26, 
+      "end": 92.46, 
+      "word": "from"
+    }, 
+    {
+      "start": 92.46, 
+      "end": 92.84, 
+      "word": "heaven"
+    }, 
+    {
+      "start": 93.0, 
+      "end": 93.11, 
+      "word": "the"
+    }, 
+    {
+      "start": 93.11, 
+      "end": 93.41, 
+      "word": "Son"
+    }, 
+    {
+      "start": 93.41, 
+      "end": 93.53, 
+      "word": "of"
+    }, 
+    {
+      "start": 93.53, 
+      "end": 94.0, 
+      "word": "Man"
+    }, 
+    {
+      "start": 95.1, 
+      "end": 95.27, 
+      "word": "And"
+    }, 
+    {
+      "start": 95.27, 
+      "end": 95.42, 
+      "word": "as"
+    }, 
+    {
+      "start": 95.42, 
+      "end": 95.95, 
+      "word": "Moses"
+    }, 
+    {
+      "start": 95.95, 
+      "end": 96.27, 
+      "word": "lifted"
+    }, 
+    {
+      "start": 96.27, 
+      "end": 96.41, 
+      "word": "up"
+    }, 
+    {
+      "start": 96.41, 
+      "end": 96.5, 
+      "word": "the"
+    }, 
+    {
+      "start": 96.5, 
+      "end": 96.9, 
+      "word": "serpent"
+    }, 
+    {
+      "start": 96.9, 
+      "end": 96.98, 
+      "word": "in"
+    }, 
+    {
+      "start": 96.98, 
+      "end": 97.07, 
+      "word": "the"
+    }, 
+    {
+      "start": 97.07, 
+      "end": 97.65, 
+      "word": "wilderness"
+    }, 
+    {
+      "start": 98.13, 
+      "end": 98.38, 
+      "word": "so"
+    }, 
+    {
+      "start": 98.38, 
+      "end": 98.64, 
+      "word": "must"
+    }, 
+    {
+      "start": 98.64, 
+      "end": 98.73, 
+      "word": "the"
+    }, 
+    {
+      "start": 98.73, 
+      "end": 98.99, 
+      "word": "Son"
+    }, 
+    {
+      "start": 98.99, 
+      "end": 99.09, 
+      "word": "of"
+    }, 
+    {
+      "start": 99.09, 
+      "end": 99.48, 
+      "word": "Man"
+    }, 
+    {
+      "start": 99.48, 
+      "end": 99.63, 
+      "word": "be"
+    }, 
+    {
+      "start": 99.63, 
+      "end": 99.97, 
+      "word": "lifted"
+    }, 
+    {
+      "start": 99.97, 
+      "end": 100.24, 
+      "word": "up"
+    }, 
+    {
+      "start": 100.45, 
+      "end": 100.9, 
+      "word": "that"
+    }, 
+    {
+      "start": 100.9, 
+      "end": 101.3, 
+      "word": "whoever"
+    }, 
+    {
+      "start": 101.3, 
+      "end": 101.78, 
+      "word": "believes"
+    }, 
+    {
+      "start": 101.78, 
+      "end": 101.89, 
+      "word": "in"
+    }, 
+    {
+      "start": 101.89, 
+      "end": 102.29, 
+      "word": "him"
+    }, 
+    {
+      "start": 102.5, 
+      "end": 102.65, 
+      "word": "may"
+    }, 
+    {
+      "start": 102.65, 
+      "end": 102.87, 
+      "word": "have"
+    }, 
+    {
+      "start": 102.87, 
+      "end": 103.35, 
+      "word": "eternal"
+    }, 
+    {
+      "start": 103.35, 
+      "end": 103.8, 
+      "word": "life"
+    }, 
+    {
+      "start": 103.92, 
+      "end": 104.73, 
+      "word": null
+    }, 
+    {
+      "start": 105.08, 
+      "end": 105.38, 
+      "word": "For"
+    }, 
+    {
+      "start": 105.38, 
+      "end": 105.77, 
+      "word": "God"
+    }, 
+    {
+      "start": 105.77, 
+      "end": 106.14, 
+      "word": "so"
+    }, 
+    {
+      "start": 106.14, 
+      "end": 106.49, 
+      "word": "loved"
+    }, 
+    {
+      "start": 106.49, 
+      "end": 106.63, 
+      "word": "the"
+    }, 
+    {
+      "start": 106.63, 
+      "end": 107.17, 
+      "word": "world"
+    }, 
+    {
+      "start": 107.17, 
+      "end": 107.3, 
+      "word": "that"
+    }, 
+    {
+      "start": 107.3, 
+      "end": 107.41, 
+      "word": "he"
+    }, 
+    {
+      "start": 107.41, 
+      "end": 107.86, 
+      "word": "gave"
+    }, 
+    {
+      "start": 107.86, 
+      "end": 108.04, 
+      "word": "his"
+    }, 
+    {
+      "start": 108.04, 
+      "end": 108.28, 
+      "word": "only"
+    }, 
+    {
+      "start": 108.28, 
+      "end": 108.82, 
+      "word": "Son"
+    }, 
+    {
+      "start": 109.11, 
+      "end": 109.46, 
+      "word": "that"
+    }, 
+    {
+      "start": 109.46, 
+      "end": 109.85, 
+      "word": "whoever"
+    }, 
+    {
+      "start": 109.85, 
+      "end": 110.28, 
+      "word": "believes"
+    }, 
+    {
+      "start": 110.28, 
+      "end": 110.39, 
+      "word": "in"
+    }, 
+    {
+      "start": 110.39, 
+      "end": 110.67, 
+      "word": "him"
+    }, 
+    {
+      "start": 110.95, 
+      "end": 111.22, 
+      "word": "should"
+    }, 
+    {
+      "start": 111.22, 
+      "end": 111.49, 
+      "word": "not"
+    }, 
+    {
+      "start": 111.49, 
+      "end": 112.03, 
+      "word": "perish"
+    }, 
+    {
+      "start": 112.03, 
+      "end": 112.17, 
+      "word": "but"
+    }, 
+    {
+      "start": 112.17, 
+      "end": 112.42, 
+      "word": "have"
+    }, 
+    {
+      "start": 112.42, 
+      "end": 112.87, 
+      "word": "eternal"
+    }, 
+    {
+      "start": 112.87, 
+      "end": 113.32, 
+      "word": "life"
+    }, 
+    {
+      "start": 113.82, 
+      "end": 114.62, 
+      "word": "For"
+    }, 
+    {
+      "start": 114.62, 
+      "end": 114.93, 
+      "word": "God"
+    }, 
+    {
+      "start": 114.93, 
+      "end": 115.07, 
+      "word": "did"
+    }, 
+    {
+      "start": 115.07, 
+      "end": 115.25, 
+      "word": "not"
+    }, 
+    {
+      "start": 115.25, 
+      "end": 115.49, 
+      "word": "send"
+    }, 
+    {
+      "start": 115.49, 
+      "end": 115.61, 
+      "word": "his"
+    }, 
+    {
+      "start": 115.61, 
+      "end": 115.86, 
+      "word": "Son"
+    }, 
+    {
+      "start": 115.86, 
+      "end": 116.04, 
+      "word": "into"
+    }, 
+    {
+      "start": 116.04, 
+      "end": 116.14, 
+      "word": "the"
+    }, 
+    {
+      "start": 116.14, 
+      "end": 116.4, 
+      "word": "world"
+    }, 
+    {
+      "start": 116.4, 
+      "end": 116.52, 
+      "word": "to"
+    }, 
+    {
+      "start": 116.52, 
+      "end": 116.96, 
+      "word": "condemn"
+    }, 
+    {
+      "start": 116.96, 
+      "end": 117.07, 
+      "word": "the"
+    }, 
+    {
+      "start": 117.07, 
+      "end": 117.43, 
+      "word": "world"
+    }, 
+    {
+      "start": 118.09, 
+      "end": 118.3, 
+      "word": "but"
+    }, 
+    {
+      "start": 118.3, 
+      "end": 118.4, 
+      "word": "in"
+    }, 
+    {
+      "start": 118.4, 
+      "end": 118.74, 
+      "word": "order"
+    }, 
+    {
+      "start": 118.74, 
+      "end": 118.9, 
+      "word": "that"
+    }, 
+    {
+      "start": 118.9, 
+      "end": 119.06, 
+      "word": "the"
+    }, 
+    {
+      "start": 119.06, 
+      "end": 119.43, 
+      "word": "world"
+    }, 
+    {
+      "start": 119.43, 
+      "end": 119.63, 
+      "word": "might"
+    }, 
+    {
+      "start": 119.63, 
+      "end": 119.74, 
+      "word": "be"
+    }, 
+    {
+      "start": 119.74, 
+      "end": 120.3, 
+      "word": "saved"
+    }, 
+    {
+      "start": 120.3, 
+      "end": 120.48, 
+      "word": "through"
+    }, 
+    {
+      "start": 120.48, 
+      "end": 120.85, 
+      "word": "him"
+    }, 
+    {
+      "start": 121.14, 
+      "end": 121.8, 
+      "word": null
+    }, 
+    {
+      "start": 122.0, 
+      "end": 122.47, 
+      "word": "Whoever"
+    }, 
+    {
+      "start": 122.47, 
+      "end": 122.95, 
+      "word": "believes"
+    }, 
+    {
+      "start": 122.95, 
+      "end": 123.12, 
+      "word": "in"
+    }, 
+    {
+      "start": 123.12, 
+      "end": 123.36, 
+      "word": "him"
+    }, 
+    {
+      "start": 123.36, 
+      "end": 123.5, 
+      "word": "is"
+    }, 
+    {
+      "start": 123.5, 
+      "end": 123.73, 
+      "word": "not"
+    }, 
+    {
+      "start": 123.73, 
+      "end": 124.34, 
+      "word": "condemned"
+    }, 
+    {
+      "start": 124.89, 
+      "end": 125.22, 
+      "word": "but"
+    }, 
+    {
+      "start": 125.22, 
+      "end": 125.55, 
+      "word": "whoever"
+    }, 
+    {
+      "start": 125.55, 
+      "end": 125.72, 
+      "word": "does"
+    }, 
+    {
+      "start": 125.72, 
+      "end": 125.95, 
+      "word": "not"
+    }, 
+    {
+      "start": 125.95, 
+      "end": 126.34, 
+      "word": "believe"
+    }, 
+    {
+      "start": 126.34, 
+      "end": 126.47, 
+      "word": "is"
+    }, 
+    {
+      "start": 126.47, 
+      "end": 126.93, 
+      "word": "condemned"
+    }, 
+    {
+      "start": 126.93, 
+      "end": 127.47, 
+      "word": "already"
+    }, 
+    {
+      "start": 127.91, 
+      "end": 128.31, 
+      "word": "because"
+    }, 
+    {
+      "start": 128.31, 
+      "end": 128.41, 
+      "word": "he"
+    }, 
+    {
+      "start": 128.41, 
+      "end": 128.63, 
+      "word": "has"
+    }, 
+    {
+      "start": 128.63, 
+      "end": 128.84, 
+      "word": "not"
+    }, 
+    {
+      "start": 128.84, 
+      "end": 129.26, 
+      "word": "believed"
+    }, 
+    {
+      "start": 129.26, 
+      "end": 129.35, 
+      "word": "in"
+    }, 
+    {
+      "start": 129.35, 
+      "end": 129.45, 
+      "word": "the"
+    }, 
+    {
+      "start": 129.45, 
+      "end": 129.76, 
+      "word": "name"
+    }, 
+    {
+      "start": 129.76, 
+      "end": 129.85, 
+      "word": "of"
+    }, 
+    {
+      "start": 129.85, 
+      "end": 129.99, 
+      "word": "the"
+    }, 
+    {
+      "start": 129.99, 
+      "end": 130.17, 
+      "word": "only"
+    }, 
+    {
+      "start": 130.17, 
+      "end": 130.44, 
+      "word": "Son"
+    }, 
+    {
+      "start": 130.44, 
+      "end": 130.53, 
+      "word": "of"
+    }, 
+    {
+      "start": 130.53, 
+      "end": 131.0, 
+      "word": "God"
+    }, 
+    {
+      "start": 131.57, 
+      "end": 132.15, 
+      "word": null
+    }, 
+    {
+      "start": 132.42, 
+      "end": 132.64, 
+      "word": "And"
+    }, 
+    {
+      "start": 132.64, 
+      "end": 132.95, 
+      "word": "this"
+    }, 
+    {
+      "start": 132.95, 
+      "end": 133.13, 
+      "word": "is"
+    }, 
+    {
+      "start": 133.13, 
+      "end": 133.29, 
+      "word": "the"
+    }, 
+    {
+      "start": 133.29, 
+      "end": 133.83, 
+      "word": "judgment"
+    }, 
+    {
+      "start": 133.98, 
+      "end": 134.54, 
+      "word": "the"
+    }, 
+    {
+      "start": 134.54, 
+      "end": 134.8, 
+      "word": "light"
+    }, 
+    {
+      "start": 134.8, 
+      "end": 134.94, 
+      "word": "has"
+    }, 
+    {
+      "start": 134.94, 
+      "end": 135.1, 
+      "word": "come"
+    }, 
+    {
+      "start": 135.1, 
+      "end": 135.28, 
+      "word": "into"
+    }, 
+    {
+      "start": 135.28, 
+      "end": 135.4, 
+      "word": "the"
+    }, 
+    {
+      "start": 135.4, 
+      "end": 135.82, 
+      "word": "world"
+    }, 
+    {
+      "start": 136.32, 
+      "end": 136.51, 
+      "word": "and"
+    }, 
+    {
+      "start": 136.51, 
+      "end": 136.95, 
+      "word": "people"
+    }, 
+    {
+      "start": 136.95, 
+      "end": 137.32, 
+      "word": "loved"
+    }, 
+    {
+      "start": 137.32, 
+      "end": 137.5, 
+      "word": "the"
+    }, 
+    {
+      "start": 137.5, 
+      "end": 138.13, 
+      "word": "darkness"
+    }, 
+    {
+      "start": 138.13, 
+      "end": 138.47, 
+      "word": "rather"
+    }, 
+    {
+      "start": 138.47, 
+      "end": 138.6, 
+      "word": "than"
+    }, 
+    {
+      "start": 138.6, 
+      "end": 138.69, 
+      "word": "the"
+    }, 
+    {
+      "start": 138.69, 
+      "end": 139.04, 
+      "word": "light"
+    }, 
+    {
+      "start": 139.36, 
+      "end": 139.7, 
+      "word": "because"
+    }, 
+    {
+      "start": 139.7, 
+      "end": 139.88, 
+      "word": "their"
+    }, 
+    {
+      "start": 139.88, 
+      "end": 140.2, 
+      "word": "works"
+    }, 
+    {
+      "start": 140.2, 
+      "end": 140.39, 
+      "word": "were"
+    }, 
+    {
+      "start": 140.39, 
+      "end": 140.77, 
+      "word": "evil"
+    }, 
+    {
+      "start": 141.45, 
+      "end": 141.89, 
+      "word": "For"
+    }, 
+    {
+      "start": 141.89, 
+      "end": 142.34, 
+      "word": "everyone"
+    }, 
+    {
+      "start": 142.34, 
+      "end": 142.43, 
+      "word": "who"
+    }, 
+    {
+      "start": 142.43, 
+      "end": 142.65, 
+      "word": "does"
+    }, 
+    {
+      "start": 142.65, 
+      "end": 142.97, 
+      "word": "wicked"
+    }, 
+    {
+      "start": 142.97, 
+      "end": 143.49, 
+      "word": "things"
+    }, 
+    {
+      "start": 143.49, 
+      "end": 144.14, 
+      "word": "hates"
+    }, 
+    {
+      "start": 144.14, 
+      "end": 144.26, 
+      "word": "the"
+    }, 
+    {
+      "start": 144.26, 
+      "end": 144.66, 
+      "word": "light"
+    }, 
+    {
+      "start": 144.82, 
+      "end": 144.99, 
+      "word": "and"
+    }, 
+    {
+      "start": 144.99, 
+      "end": 145.17, 
+      "word": "does"
+    }, 
+    {
+      "start": 145.17, 
+      "end": 145.36, 
+      "word": "not"
+    }, 
+    {
+      "start": 145.36, 
+      "end": 145.66, 
+      "word": "come"
+    }, 
+    {
+      "start": 145.66, 
+      "end": 145.77, 
+      "word": "to"
+    }, 
+    {
+      "start": 145.77, 
+      "end": 145.86, 
+      "word": "the"
+    }, 
+    {
+      "start": 145.86, 
+      "end": 146.19, 
+      "word": "light"
+    }, 
+    {
+      "start": 146.43, 
+      "end": 146.71, 
+      "word": "lest"
+    }, 
+    {
+      "start": 146.71, 
+      "end": 146.85, 
+      "word": "his"
+    }, 
+    {
+      "start": 146.85, 
+      "end": 147.21, 
+      "word": "works"
+    }, 
+    {
+      "start": 147.21, 
+      "end": 147.42, 
+      "word": "should"
+    }, 
+    {
+      "start": 147.42, 
+      "end": 147.53, 
+      "word": "be"
+    }, 
+    {
+      "start": 147.53, 
+      "end": 148.29, 
+      "word": "exposed"
+    }, 
+    {
+      "start": 148.39, 
+      "end": 149.22, 
+      "word": null
+    }, 
+    {
+      "start": 149.25, 
+      "end": 149.46, 
+      "word": "But"
+    }, 
+    {
+      "start": 149.46, 
+      "end": 149.86, 
+      "word": "whoever"
+    }, 
+    {
+      "start": 149.86, 
+      "end": 150.16, 
+      "word": "does"
+    }, 
+    {
+      "start": 150.16, 
+      "end": 150.36, 
+      "word": "what"
+    }, 
+    {
+      "start": 150.36, 
+      "end": 150.47, 
+      "word": "is"
+    }, 
+    {
+      "start": 150.47, 
+      "end": 150.89, 
+      "word": "true"
+    }, 
+    {
+      "start": 150.89, 
+      "end": 151.31, 
+      "word": "comes"
+    }, 
+    {
+      "start": 151.31, 
+      "end": 151.42, 
+      "word": "to"
+    }, 
+    {
+      "start": 151.42, 
+      "end": 151.51, 
+      "word": "the"
+    }, 
+    {
+      "start": 151.51, 
+      "end": 151.89, 
+      "word": "light"
+    }, 
+    {
+      "start": 152.31, 
+      "end": 152.48, 
+      "word": "so"
+    }, 
+    {
+      "start": 152.48, 
+      "end": 152.61, 
+      "word": "that"
+    }, 
+    {
+      "start": 152.61, 
+      "end": 152.68, 
+      "word": "it"
+    }, 
+    {
+      "start": 152.68, 
+      "end": 152.83, 
+      "word": "may"
+    }, 
+    {
+      "start": 152.83, 
+      "end": 152.93, 
+      "word": "be"
+    }, 
+    {
+      "start": 152.93, 
+      "end": 153.4, 
+      "word": "clearly"
+    }, 
+    {
+      "start": 153.4, 
+      "end": 153.73, 
+      "word": "seen"
+    }, 
+    {
+      "start": 153.73, 
+      "end": 153.87, 
+      "word": "that"
+    }, 
+    {
+      "start": 153.87, 
+      "end": 154.03, 
+      "word": "his"
+    }, 
+    {
+      "start": 154.03, 
+      "end": 154.42, 
+      "word": "works"
+    }, 
+    {
+      "start": 154.42, 
+      "end": 154.55, 
+      "word": "have"
+    }, 
+    {
+      "start": 154.55, 
+      "end": 154.75, 
+      "word": "been"
+    }, 
+    {
+      "start": 154.75, 
+      "end": 155.19, 
+      "word": "carried"
+    }, 
+    {
+      "start": 155.19, 
+      "end": 155.39, 
+      "word": "out"
+    }, 
+    {
+      "start": 155.39, 
+      "end": 155.54, 
+      "word": "in"
+    }, 
+    {
+      "start": 155.54, 
+      "end": 155.96, 
+      "word": "God"
+    }, 
+    {
+      "start": 157.34, 
+      "end": 157.73, 
+      "word": "After"
+    }, 
+    {
+      "start": 157.73, 
+      "end": 158.05, 
+      "word": "this"
+    }, 
+    {
+      "start": 158.05, 
+      "end": 158.54, 
+      "word": "Jesus"
+    }, 
+    {
+      "start": 158.54, 
+      "end": 158.71, 
+      "word": "and"
+    }, 
+    {
+      "start": 158.71, 
+      "end": 158.85, 
+      "word": "his"
+    }, 
+    {
+      "start": 158.85, 
+      "end": 159.44, 
+      "word": "disciples"
+    }, 
+    {
+      "start": 159.44, 
+      "end": 159.7, 
+      "word": "went"
+    }, 
+    {
+      "start": 159.7, 
+      "end": 159.92, 
+      "word": "into"
+    }, 
+    {
+      "start": 159.92, 
+      "end": 160.03, 
+      "word": "the"
+    }, 
+    {
+      "start": 160.03, 
+      "end": 160.42, 
+      "word": "Judean"
+    }, 
+    {
+      "start": 160.42, 
+      "end": 161.2, 
+      "word": "countryside"
+    }, 
+    {
+      "start": 161.61, 
+      "end": 161.79, 
+      "word": "and"
+    }, 
+    {
+      "start": 161.79, 
+      "end": 161.89, 
+      "word": "he"
+    }, 
+    {
+      "start": 161.89, 
+      "end": 162.3, 
+      "word": "remained"
+    }, 
+    {
+      "start": 162.3, 
+      "end": 162.46, 
+      "word": "there"
+    }, 
+    {
+      "start": 162.46, 
+      "end": 162.65, 
+      "word": "with"
+    }, 
+    {
+      "start": 162.65, 
+      "end": 162.86, 
+      "word": "them"
+    }, 
+    {
+      "start": 162.86, 
+      "end": 162.97, 
+      "word": "and"
+    }, 
+    {
+      "start": 162.97, 
+      "end": 163.11, 
+      "word": "was"
+    }, 
+    {
+      "start": 163.11, 
+      "end": 163.79, 
+      "word": "baptizing"
+    }, 
+    {
+      "start": 164.6, 
+      "end": 164.91, 
+      "word": "John"
+    }, 
+    {
+      "start": 164.91, 
+      "end": 165.27, 
+      "word": "also"
+    }, 
+    {
+      "start": 165.27, 
+      "end": 165.45, 
+      "word": "was"
+    }, 
+    {
+      "start": 165.45, 
+      "end": 166.04, 
+      "word": "baptizing"
+    }, 
+    {
+      "start": 166.04, 
+      "end": 166.17, 
+      "word": "at"
+    }, 
+    {
+      "start": 166.17, 
+      "end": 166.54, 
+      "word": "Aenon"
+    }, 
+    {
+      "start": 166.54, 
+      "end": 166.72, 
+      "word": "near"
+    }, 
+    {
+      "start": 166.72, 
+      "end": 167.24, 
+      "word": "Salim"
+    }, 
+    {
+      "start": 167.52, 
+      "end": 167.8, 
+      "word": "because"
+    }, 
+    {
+      "start": 167.8, 
+      "end": 168.13, 
+      "word": "water"
+    }, 
+    {
+      "start": 168.13, 
+      "end": 168.25, 
+      "word": "was"
+    }, 
+    {
+      "start": 168.25, 
+      "end": 168.72, 
+      "word": "plentiful"
+    }, 
+    {
+      "start": 168.72, 
+      "end": 168.98, 
+      "word": "there"
+    }, 
+    {
+      "start": 169.01, 
+      "end": 169.18, 
+      "word": "and"
+    }, 
+    {
+      "start": 169.18, 
+      "end": 169.54, 
+      "word": "people"
+    }, 
+    {
+      "start": 169.54, 
+      "end": 169.65, 
+      "word": "were"
+    }, 
+    {
+      "start": 169.65, 
+      "end": 170.12, 
+      "word": "coming"
+    }, 
+    {
+      "start": 170.12, 
+      "end": 170.27, 
+      "word": "and"
+    }, 
+    {
+      "start": 170.27, 
+      "end": 170.51, 
+      "word": "being"
+    }, 
+    {
+      "start": 170.51, 
+      "end": 171.21, 
+      "word": "baptized"
+    }, 
+    {
+      "start": 171.62, 
+      "end": 171.77, 
+      "word": "for"
+    }, 
+    {
+      "start": 171.77, 
+      "end": 172.09, 
+      "word": "John"
+    }, 
+    {
+      "start": 172.09, 
+      "end": 172.24, 
+      "word": "had"
+    }, 
+    {
+      "start": 172.24, 
+      "end": 172.46, 
+      "word": "not"
+    }, 
+    {
+      "start": 172.46, 
+      "end": 172.64, 
+      "word": "yet"
+    }, 
+    {
+      "start": 172.64, 
+      "end": 172.81, 
+      "word": "been"
+    }, 
+    {
+      "start": 172.81, 
+      "end": 172.98, 
+      "word": "put"
+    }, 
+    {
+      "start": 172.98, 
+      "end": 173.11, 
+      "word": "in"
+    }, 
+    {
+      "start": 173.11, 
+      "end": 173.56, 
+      "word": "prison"
+    }, 
+    {
+      "start": 174.87, 
+      "end": 175.16, 
+      "word": "Now"
+    }, 
+    {
+      "start": 175.16, 
+      "end": 175.19, 
+      "word": "a"
+    }, 
+    {
+      "start": 175.19, 
+      "end": 175.74, 
+      "word": "discussion"
+    }, 
+    {
+      "start": 175.74, 
+      "end": 176.15, 
+      "word": "arose"
+    }, 
+    {
+      "start": 176.15, 
+      "end": 176.49, 
+      "word": "between"
+    }, 
+    {
+      "start": 176.49, 
+      "end": 176.69, 
+      "word": "some"
+    }, 
+    {
+      "start": 176.69, 
+      "end": 176.81, 
+      "word": "of"
+    }, 
+    {
+      "start": 176.81, 
+      "end": 177.17, 
+      "word": "John's"
+    }, 
+    {
+      "start": 177.17, 
+      "end": 177.83, 
+      "word": "disciples"
+    }, 
+    {
+      "start": 177.83, 
+      "end": 177.99, 
+      "word": "and"
+    }, 
+    {
+      "start": 177.99, 
+      "end": 178.03, 
+      "word": "a"
+    }, 
+    {
+      "start": 178.03, 
+      "end": 178.51, 
+      "word": "Jew"
+    }, 
+    {
+      "start": 178.51, 
+      "end": 178.71, 
+      "word": "over"
+    }, 
+    {
+      "start": 178.71, 
+      "end": 179.57, 
+      "word": "purification"
+    }, 
+    {
+      "start": 180.07, 
+      "end": 180.17, 
+      "word": "And"
+    }, 
+    {
+      "start": 180.17, 
+      "end": 180.25, 
+      "word": "they"
+    }, 
+    {
+      "start": 180.25, 
+      "end": 180.47, 
+      "word": "came"
+    }, 
+    {
+      "start": 180.47, 
+      "end": 180.59, 
+      "word": "to"
+    }, 
+    {
+      "start": 180.59, 
+      "end": 180.95, 
+      "word": "John"
+    }, 
+    {
+      "start": 180.95, 
+      "end": 181.06, 
+      "word": "and"
+    }, 
+    {
+      "start": 181.06, 
+      "end": 181.28, 
+      "word": "said"
+    }, 
+    {
+      "start": 181.28, 
+      "end": 181.43, 
+      "word": "to"
+    }, 
+    {
+      "start": 181.43, 
+      "end": 181.81, 
+      "word": "him"
+    }, 
+    {
+      "start": 182.29, 
+      "end": 182.79, 
+      "word": "Rabbi"
+    }, 
+    {
+      "start": 183.07, 
+      "end": 183.29, 
+      "word": "he"
+    }, 
+    {
+      "start": 183.29, 
+      "end": 183.38, 
+      "word": "who"
+    }, 
+    {
+      "start": 183.38, 
+      "end": 183.53, 
+      "word": "was"
+    }, 
+    {
+      "start": 183.53, 
+      "end": 183.73, 
+      "word": "with"
+    }, 
+    {
+      "start": 183.73, 
+      "end": 183.83, 
+      "word": "you"
+    }, 
+    {
+      "start": 183.83, 
+      "end": 184.21, 
+      "word": "across"
+    }, 
+    {
+      "start": 184.21, 
+      "end": 184.34, 
+      "word": "the"
+    }, 
+    {
+      "start": 184.34, 
+      "end": 184.71, 
+      "word": "Jordan"
+    }, 
+    {
+      "start": 184.71, 
+      "end": 184.84, 
+      "word": "to"
+    }, 
+    {
+      "start": 184.84, 
+      "end": 185.04, 
+      "word": "whom"
+    }, 
+    {
+      "start": 185.04, 
+      "end": 185.13, 
+      "word": "you"
+    }, 
+    {
+      "start": 185.13, 
+      "end": 185.35, 
+      "word": "bore"
+    }, 
+    {
+      "start": 185.35, 
+      "end": 186.38, 
+      "word": "witness--look"
+    }, 
+    {
+      "start": 186.38, 
+      "end": 186.53, 
+      "word": "he"
+    }, 
+    {
+      "start": 186.53, 
+      "end": 186.72, 
+      "word": "is"
+    }, 
+    {
+      "start": 186.72, 
+      "end": 187.41, 
+      "word": "baptizing"
+    }, 
+    {
+      "start": 187.41, 
+      "end": 187.5, 
+      "word": "and"
+    }, 
+    {
+      "start": 187.5, 
+      "end": 187.78, 
+      "word": "all"
+    }, 
+    {
+      "start": 187.78, 
+      "end": 187.84, 
+      "word": "are"
+    }, 
+    {
+      "start": 187.84, 
+      "end": 188.1, 
+      "word": "going"
+    }, 
+    {
+      "start": 188.1, 
+      "end": 188.21, 
+      "word": "to"
+    }, 
+    {
+      "start": 188.21, 
+      "end": 188.78, 
+      "word": "him"
+    }, 
+    {
+      "start": 189.62, 
+      "end": 189.99, 
+      "word": "John"
+    }, 
+    {
+      "start": 189.99, 
+      "end": 190.6, 
+      "word": "answered"
+    }, 
+    {
+      "start": 191.51, 
+      "end": 191.65, 
+      "word": "A"
+    }, 
+    {
+      "start": 191.65, 
+      "end": 192.04, 
+      "word": "person"
+    }, 
+    {
+      "start": 192.04, 
+      "end": 192.36, 
+      "word": "cannot"
+    }, 
+    {
+      "start": 192.36, 
+      "end": 192.78, 
+      "word": "receive"
+    }, 
+    {
+      "start": 192.78, 
+      "end": 193.02, 
+      "word": "even"
+    }, 
+    {
+      "start": 193.02, 
+      "end": 193.28, 
+      "word": "one"
+    }, 
+    {
+      "start": 193.28, 
+      "end": 193.75, 
+      "word": "thing"
+    }, 
+    {
+      "start": 194.18, 
+      "end": 194.52, 
+      "word": "unless"
+    }, 
+    {
+      "start": 194.52, 
+      "end": 194.61, 
+      "word": "it"
+    }, 
+    {
+      "start": 194.61, 
+      "end": 194.73, 
+      "word": "is"
+    }, 
+    {
+      "start": 194.73, 
+      "end": 195.05, 
+      "word": "given"
+    }, 
+    {
+      "start": 195.05, 
+      "end": 195.27, 
+      "word": "him"
+    }, 
+    {
+      "start": 195.27, 
+      "end": 195.42, 
+      "word": "from"
+    }, 
+    {
+      "start": 195.42, 
+      "end": 195.79, 
+      "word": "heaven"
+    }, 
+    {
+      "start": 196.37, 
+      "end": 196.58, 
+      "word": "You"
+    }, 
+    {
+      "start": 196.58, 
+      "end": 197.13, 
+      "word": "yourselves"
+    }, 
+    {
+      "start": 197.13, 
+      "end": 197.33, 
+      "word": "bear"
+    }, 
+    {
+      "start": 197.33, 
+      "end": 197.45, 
+      "word": "me"
+    }, 
+    {
+      "start": 197.45, 
+      "end": 197.94, 
+      "word": "witness"
+    }, 
+    {
+      "start": 197.94, 
+      "end": 198.08, 
+      "word": "that"
+    }, 
+    {
+      "start": 198.08, 
+      "end": 198.18, 
+      "word": "I"
+    }, 
+    {
+      "start": 198.18, 
+      "end": 198.45, 
+      "word": "said"
+    }, 
+    {
+      "start": 198.83, 
+      "end": 198.97, 
+      "word": "I"
+    }, 
+    {
+      "start": 198.97, 
+      "end": 199.12, 
+      "word": "am"
+    }, 
+    {
+      "start": 199.12, 
+      "end": 199.33, 
+      "word": "not"
+    }, 
+    {
+      "start": 199.33, 
+      "end": 199.42, 
+      "word": "the"
+    }, 
+    {
+      "start": 199.42, 
+      "end": 199.97, 
+      "word": "Christ"
+    }, 
+    {
+      "start": 200.32, 
+      "end": 200.45, 
+      "word": "but"
+    }, 
+    {
+      "start": 200.45, 
+      "end": 200.58, 
+      "word": "I"
+    }, 
+    {
+      "start": 200.58, 
+      "end": 200.73, 
+      "word": "have"
+    }, 
+    {
+      "start": 200.73, 
+      "end": 200.92, 
+      "word": "been"
+    }, 
+    {
+      "start": 200.92, 
+      "end": 201.3, 
+      "word": "sent"
+    }, 
+    {
+      "start": 201.3, 
+      "end": 201.7, 
+      "word": "before"
+    }, 
+    {
+      "start": 201.7, 
+      "end": 201.92, 
+      "word": "him"
+    }, 
+    {
+      "start": 201.95, 
+      "end": 202.01, 
+      "word": "The"
+    }, 
+    {
+      "start": 202.04, 
+      "end": 203.38, 
+      "word": "one"
+    }, 
+    {
+      "start": 203.38, 
+      "end": 203.47, 
+      "word": "who"
+    }, 
+    {
+      "start": 203.47, 
+      "end": 203.77, 
+      "word": "has"
+    }, 
+    {
+      "start": 203.77, 
+      "end": 203.9, 
+      "word": "the"
+    }, 
+    {
+      "start": 203.9, 
+      "end": 204.39, 
+      "word": "bride"
+    }, 
+    {
+      "start": 204.39, 
+      "end": 204.52, 
+      "word": "is"
+    }, 
+    {
+      "start": 204.52, 
+      "end": 204.62, 
+      "word": "the"
+    }, 
+    {
+      "start": 204.62, 
+      "end": 205.22, 
+      "word": "bridegroom"
+    }, 
+    {
+      "start": 205.81, 
+      "end": 205.91, 
+      "word": "The"
+    }, 
+    {
+      "start": 205.91, 
+      "end": 206.25, 
+      "word": "friend"
+    }, 
+    {
+      "start": 206.25, 
+      "end": 206.32, 
+      "word": "of"
+    }, 
+    {
+      "start": 206.32, 
+      "end": 206.42, 
+      "word": "the"
+    }, 
+    {
+      "start": 206.42, 
+      "end": 206.99, 
+      "word": "bridegroom"
+    }, 
+    {
+      "start": 206.99, 
+      "end": 207.09, 
+      "word": "who"
+    }, 
+    {
+      "start": 207.09, 
+      "end": 207.53, 
+      "word": "stands"
+    }, 
+    {
+      "start": 207.53, 
+      "end": 207.63, 
+      "word": "and"
+    }, 
+    {
+      "start": 207.63, 
+      "end": 207.94, 
+      "word": "hears"
+    }, 
+    {
+      "start": 207.94, 
+      "end": 208.13, 
+      "word": "him"
+    }, 
+    {
+      "start": 208.41, 
+      "end": 209.22, 
+      "word": "rejoices"
+    }, 
+    {
+      "start": 209.22, 
+      "end": 209.73, 
+      "word": "greatly"
+    }, 
+    {
+      "start": 209.73, 
+      "end": 209.86, 
+      "word": "at"
+    }, 
+    {
+      "start": 209.86, 
+      "end": 209.93, 
+      "word": "the"
+    }, 
+    {
+      "start": 209.93, 
+      "end": 210.57, 
+      "word": "bridegroom's"
+    }, 
+    {
+      "start": 210.57, 
+      "end": 211.13, 
+      "word": "voice"
+    }, 
+    {
+      "start": 211.51, 
+      "end": 212.42, 
+      "word": "Therefore"
+    }, 
+    {
+      "start": 212.42, 
+      "end": 212.63, 
+      "word": "this"
+    }, 
+    {
+      "start": 212.63, 
+      "end": 212.97, 
+      "word": "joy"
+    }, 
+    {
+      "start": 212.97, 
+      "end": 213.13, 
+      "word": "of"
+    }, 
+    {
+      "start": 213.13, 
+      "end": 213.59, 
+      "word": "mine"
+    }, 
+    {
+      "start": 213.59, 
+      "end": 213.81, 
+      "word": "is"
+    }, 
+    {
+      "start": 213.81, 
+      "end": 214.0, 
+      "word": "now"
+    }, 
+    {
+      "start": 214.0, 
+      "end": 214.58, 
+      "word": "complete"
+    }, 
+    {
+      "start": 215.35, 
+      "end": 215.65, 
+      "word": "He"
+    }, 
+    {
+      "start": 215.65, 
+      "end": 215.99, 
+      "word": "must"
+    }, 
+    {
+      "start": 215.99, 
+      "end": 216.89, 
+      "word": "increase"
+    }, 
+    {
+      "start": 217.18, 
+      "end": 217.48, 
+      "word": "but"
+    }, 
+    {
+      "start": 217.48, 
+      "end": 217.6, 
+      "word": "I"
+    }, 
+    {
+      "start": 217.6, 
+      "end": 217.92, 
+      "word": "must"
+    }, 
+    {
+      "start": 217.92, 
+      "end": 218.58, 
+      "word": "decrease"
+    }, 
+    {
+      "start": 218.63, 
+      "end": 219.41, 
+      "word": null
+    }, 
+    {
+      "start": 219.75, 
+      "end": 220.04, 
+      "word": "He"
+    }, 
+    {
+      "start": 220.04, 
+      "end": 220.19, 
+      "word": "who"
+    }, 
+    {
+      "start": 220.19, 
+      "end": 220.49, 
+      "word": "comes"
+    }, 
+    {
+      "start": 220.49, 
+      "end": 220.73, 
+      "word": "from"
+    }, 
+    {
+      "start": 220.73, 
+      "end": 221.22, 
+      "word": "above"
+    }, 
+    {
+      "start": 221.26, 
+      "end": 221.51, 
+      "word": "is"
+    }, 
+    {
+      "start": 221.51, 
+      "end": 221.81, 
+      "word": "above"
+    }, 
+    {
+      "start": 221.81, 
+      "end": 222.24, 
+      "word": "all"
+    }, 
+    {
+      "start": 223.13, 
+      "end": 223.43, 
+      "word": "He"
+    }, 
+    {
+      "start": 223.43, 
+      "end": 223.57, 
+      "word": "who"
+    }, 
+    {
+      "start": 223.57, 
+      "end": 223.67, 
+      "word": "is"
+    }, 
+    {
+      "start": 223.67, 
+      "end": 223.82, 
+      "word": "of"
+    }, 
+    {
+      "start": 223.82, 
+      "end": 223.97, 
+      "word": "the"
+    }, 
+    {
+      "start": 223.97, 
+      "end": 224.25, 
+      "word": "earth"
+    }, 
+    {
+      "start": 224.25, 
+      "end": 224.73, 
+      "word": "belongs"
+    }, 
+    {
+      "start": 224.73, 
+      "end": 224.87, 
+      "word": "to"
+    }, 
+    {
+      "start": 224.87, 
+      "end": 225.01, 
+      "word": "the"
+    }, 
+    {
+      "start": 225.01, 
+      "end": 225.23, 
+      "word": "earth"
+    }, 
+    {
+      "start": 225.23, 
+      "end": 225.34, 
+      "word": "and"
+    }, 
+    {
+      "start": 225.34, 
+      "end": 225.77, 
+      "word": "speaks"
+    }, 
+    {
+      "start": 225.77, 
+      "end": 225.88, 
+      "word": "in"
+    }, 
+    {
+      "start": 225.88, 
+      "end": 226.02, 
+      "word": "an"
+    }, 
+    {
+      "start": 226.02, 
+      "end": 226.37, 
+      "word": "earthly"
+    }, 
+    {
+      "start": 226.37, 
+      "end": 226.84, 
+      "word": "way"
+    }, 
+    {
+      "start": 227.74, 
+      "end": 227.99, 
+      "word": "He"
+    }, 
+    {
+      "start": 227.99, 
+      "end": 228.13, 
+      "word": "who"
+    }, 
+    {
+      "start": 228.13, 
+      "end": 228.43, 
+      "word": "comes"
+    }, 
+    {
+      "start": 228.43, 
+      "end": 228.63, 
+      "word": "from"
+    }, 
+    {
+      "start": 228.63, 
+      "end": 229.05, 
+      "word": "heaven"
+    }, 
+    {
+      "start": 229.05, 
+      "end": 229.17, 
+      "word": "is"
+    }, 
+    {
+      "start": 229.17, 
+      "end": 229.5, 
+      "word": "above"
+    }, 
+    {
+      "start": 229.5, 
+      "end": 229.94, 
+      "word": "all"
+    }, 
+    {
+      "start": 230.46, 
+      "end": 230.65, 
+      "word": "He"
+    }, 
+    {
+      "start": 230.65, 
+      "end": 230.97, 
+      "word": "bears"
+    }, 
+    {
+      "start": 230.97, 
+      "end": 231.36, 
+      "word": "witness"
+    }, 
+    {
+      "start": 231.36, 
+      "end": 231.47, 
+      "word": "to"
+    }, 
+    {
+      "start": 231.47, 
+      "end": 231.62, 
+      "word": "what"
+    }, 
+    {
+      "start": 231.62, 
+      "end": 231.74, 
+      "word": "he"
+    }, 
+    {
+      "start": 231.74, 
+      "end": 231.87, 
+      "word": "has"
+    }, 
+    {
+      "start": 231.87, 
+      "end": 232.37, 
+      "word": "seen"
+    }, 
+    {
+      "start": 232.37, 
+      "end": 232.53, 
+      "word": "and"
+    }, 
+    {
+      "start": 232.53, 
+      "end": 232.94, 
+      "word": "heard"
+    }, 
+    {
+      "start": 233.21, 
+      "end": 233.41, 
+      "word": "yet"
+    }, 
+    {
+      "start": 233.41, 
+      "end": 233.71, 
+      "word": "no"
+    }, 
+    {
+      "start": 233.71, 
+      "end": 233.92, 
+      "word": "one"
+    }, 
+    {
+      "start": 233.92, 
+      "end": 234.34, 
+      "word": "receives"
+    }, 
+    {
+      "start": 234.34, 
+      "end": 234.48, 
+      "word": "his"
+    }, 
+    {
+      "start": 234.48, 
+      "end": 235.1, 
+      "word": "testimony"
+    }, 
+    {
+      "start": 236.23, 
+      "end": 236.62, 
+      "word": "Whoever"
+    }, 
+    {
+      "start": 236.62, 
+      "end": 237.09, 
+      "word": "receives"
+    }, 
+    {
+      "start": 237.09, 
+      "end": 237.24, 
+      "word": "his"
+    }, 
+    {
+      "start": 237.24, 
+      "end": 237.86, 
+      "word": "testimony"
+    }, 
+    {
+      "start": 238.12, 
+      "end": 238.53, 
+      "word": "sets"
+    }, 
+    {
+      "start": 238.53, 
+      "end": 238.75, 
+      "word": "his"
+    }, 
+    {
+      "start": 238.75, 
+      "end": 239.15, 
+      "word": "seal"
+    }, 
+    {
+      "start": 239.15, 
+      "end": 239.31, 
+      "word": "to"
+    }, 
+    {
+      "start": 239.31, 
+      "end": 239.68, 
+      "word": "this"
+    }, 
+    {
+      "start": 239.95, 
+      "end": 240.16, 
+      "word": "that"
+    }, 
+    {
+      "start": 240.16, 
+      "end": 240.74, 
+      "word": "God"
+    }, 
+    {
+      "start": 240.74, 
+      "end": 240.95, 
+      "word": "is"
+    }, 
+    {
+      "start": 240.95, 
+      "end": 241.4, 
+      "word": "true"
+    }, 
+    {
+      "start": 241.93, 
+      "end": 242.48, 
+      "word": "For"
+    }, 
+    {
+      "start": 242.48, 
+      "end": 242.73, 
+      "word": "he"
+    }, 
+    {
+      "start": 242.73, 
+      "end": 242.96, 
+      "word": "whom"
+    }, 
+    {
+      "start": 242.96, 
+      "end": 243.24, 
+      "word": "God"
+    }, 
+    {
+      "start": 243.24, 
+      "end": 243.41, 
+      "word": "has"
+    }, 
+    {
+      "start": 243.41, 
+      "end": 243.8, 
+      "word": "sent"
+    }, 
+    {
+      "start": 244.09, 
+      "end": 244.45, 
+      "word": "utters"
+    }, 
+    {
+      "start": 244.45, 
+      "end": 244.56, 
+      "word": "the"
+    }, 
+    {
+      "start": 244.56, 
+      "end": 244.88, 
+      "word": "words"
+    }, 
+    {
+      "start": 244.88, 
+      "end": 244.99, 
+      "word": "of"
+    }, 
+    {
+      "start": 244.99, 
+      "end": 245.41, 
+      "word": "God"
+    }, 
+    {
+      "start": 245.66, 
+      "end": 245.89, 
+      "word": "for"
+    }, 
+    {
+      "start": 245.89, 
+      "end": 246.01, 
+      "word": "he"
+    }, 
+    {
+      "start": 246.01, 
+      "end": 246.26, 
+      "word": "gives"
+    }, 
+    {
+      "start": 246.26, 
+      "end": 246.36, 
+      "word": "the"
+    }, 
+    {
+      "start": 246.36, 
+      "end": 246.85, 
+      "word": "Spirit"
+    }, 
+    {
+      "start": 246.85, 
+      "end": 247.17, 
+      "word": "without"
+    }, 
+    {
+      "start": 247.17, 
+      "end": 247.64, 
+      "word": "measure"
+    }, 
+    {
+      "start": 248.2, 
+      "end": 249.19, 
+      "word": "The"
+    }, 
+    {
+      "start": 249.26, 
+      "end": 249.63, 
+      "word": "Father"
+    }, 
+    {
+      "start": 249.63, 
+      "end": 249.92, 
+      "word": "loves"
+    }, 
+    {
+      "start": 249.92, 
+      "end": 250.04, 
+      "word": "the"
+    }, 
+    {
+      "start": 250.04, 
+      "end": 250.49, 
+      "word": "Son"
+    }, 
+    {
+      "start": 250.49, 
+      "end": 250.83, 
+      "word": "and"
+    }, 
+    {
+      "start": 250.83, 
+      "end": 250.97, 
+      "word": "has"
+    }, 
+    {
+      "start": 250.97, 
+      "end": 251.25, 
+      "word": "given"
+    }, 
+    {
+      "start": 251.25, 
+      "end": 251.57, 
+      "word": "all"
+    }, 
+    {
+      "start": 251.57, 
+      "end": 251.93, 
+      "word": "things"
+    }, 
+    {
+      "start": 251.93, 
+      "end": 252.15, 
+      "word": "into"
+    }, 
+    {
+      "start": 252.15, 
+      "end": 252.31, 
+      "word": "his"
+    }, 
+    {
+      "start": 252.31, 
+      "end": 252.76, 
+      "word": "hand"
+    }, 
+    {
+      "start": 253.64, 
+      "end": 254.03, 
+      "word": "Whoever"
+    }, 
+    {
+      "start": 254.03, 
+      "end": 254.48, 
+      "word": "believes"
+    }, 
+    {
+      "start": 254.48, 
+      "end": 254.58, 
+      "word": "in"
+    }, 
+    {
+      "start": 254.58, 
+      "end": 254.66, 
+      "word": "the"
+    }, 
+    {
+      "start": 254.66, 
+      "end": 255.11, 
+      "word": "Son"
+    }, 
+    {
+      "start": 255.11, 
+      "end": 255.42, 
+      "word": "has"
+    }, 
+    {
+      "start": 255.42, 
+      "end": 255.8, 
+      "word": "eternal"
+    }, 
+    {
+      "start": 255.8, 
+      "end": 256.18, 
+      "word": "life"
+    }, 
+    {
+      "start": 256.93, 
+      "end": 257.32, 
+      "word": "whoever"
+    }, 
+    {
+      "start": 257.32, 
+      "end": 257.47, 
+      "word": "does"
+    }, 
+    {
+      "start": 257.47, 
+      "end": 257.66, 
+      "word": "not"
+    }, 
+    {
+      "start": 257.66, 
+      "end": 257.99, 
+      "word": "obey"
+    }, 
+    {
+      "start": 257.99, 
+      "end": 258.12, 
+      "word": "the"
+    }, 
+    {
+      "start": 258.12, 
+      "end": 258.54, 
+      "word": "Son"
+    }, 
+    {
+      "start": 258.86, 
+      "end": 259.17, 
+      "word": "shall"
+    }, 
+    {
+      "start": 259.17, 
+      "end": 259.43, 
+      "word": "not"
+    }, 
+    {
+      "start": 259.43, 
+      "end": 259.78, 
+      "word": "see"
+    }, 
+    {
+      "start": 259.78, 
+      "end": 260.23, 
+      "word": "life"
+    }, 
+    {
+      "start": 260.57, 
+      "end": 260.79, 
+      "word": "but"
+    }, 
+    {
+      "start": 260.79, 
+      "end": 260.97, 
+      "word": "the"
+    }, 
+    {
+      "start": 260.97, 
+      "end": 261.36, 
+      "word": "wrath"
+    }, 
+    {
+      "start": 261.36, 
+      "end": 261.45, 
+      "word": "of"
+    }, 
+    {
+      "start": 261.45, 
+      "end": 261.87, 
+      "word": "God"
+    }, 
+    {
+      "start": 261.87, 
+      "end": 262.4, 
+      "word": "remains"
+    }, 
+    {
+      "start": 262.4, 
+      "end": 262.59, 
+      "word": "on"
+    }, 
+    {
+      "start": 262.59, 
+      "end": 262.83, 
+      "word": "him"
+    }
+  ]
+}
