@@ -23,16 +23,7 @@ ESV API usage terms available from http://www.esvapi.org/
 USAGE:
 $ python align.py [-f|--force] [osisBook] [chapter, [chapter]...] [osisBook] [chapter, [chapter]...] ...
 
-EXAMPLES:
-
-Align Genesis 1:
-$ python align.py Gen 1
-
-Align John 3, overridding any existing timings:
-$ python align.py -f John 3
-
-Align Genesis 1-3, Psalm 1, and all of Colossians:
-$ python align.py Gen 1 2 3 Ps 1 Col
+See README for examples and further information.
 
 Dual licensed under the MIT or GPL Version 2 licenses.
 MIT License: http://creativecommons.org/licenses/MIT/
