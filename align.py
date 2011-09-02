@@ -52,8 +52,9 @@ def align(argv):
     long_audio_aligner_path = __dir__ + '/long-audio-aligner'
     data_path = __dir__ + '/data'
     is_force = ('--force' in sys.argv or '-f' in sys.argv)
+    book_args = filter(lambda arg: arg[0] != '-', argv)
     
-    books = bookinfo.get_book_subset(argv)
+    books = bookinfo.get_book_subset(book_args)
     
     # svn co http://cmusphinx.svn.sourceforge.net/svnroot/cmusphinx/branches/long-audio-aligner/Aligner aligner
     if not path.exists(long_audio_aligner_path):
