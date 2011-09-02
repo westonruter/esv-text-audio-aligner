@@ -22,7 +22,7 @@ for bookinfo in books:
         if not os.path.exists(timings_file):
             continue
         with codecs.open(timings_file, encoding='utf-8') as f:
-            timings = json.loads(f.read())
+            timings = json.loads(f.read()).get('words')
         
         # Get the original
         text_file = "data/%s.%d.txt" % (bookinfo.osis, chapter)

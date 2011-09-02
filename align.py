@@ -39,6 +39,7 @@ import sys
 import shutil
 import json
 import re
+from collections import OrderedDict
 from time import time as clock
 import bookinfo
 
@@ -200,22 +201,29 @@ def align(argv):
                     raise Exception("fail (haz Java?)")
                 os.chdir(cwd)
                 
-                # Chapter word segments
+                # Chapter word segments: split up the chapter into an OrderedDict where each verse is separate
                 fi = codecs.open(versed_text_file, mode='r', encoding='utf-8')
                 chapter_text = fi.read()
                 fi.close()
-                unnormalized_word_chunks = re.sub(r'\[\d+\]', ' ', chapter_text).strip().split()
                 
-                # Copy the aligned output into the data directory
+                # Split the text into words
+                chapter_text = re.sub(r'(\[\d+\])', r' \1 ', chapter_text)
+                unnormalized_word_chunks = chapter_text.strip().split()
+                unnormalized_word_chunks.insert(0, '[1]')
+                
+                # Obtain the timed output
                 fi = codecs.open(long_audio_aligner_path + '/timedOutput/1.txt', encoding='utf-8')
                 raw_timings = fi.read().split()
                 fi.close()
                 
+                verse_timings = OrderedDict()
+                word_timings = []
+                
                 # Parse the timings out of the raw timings, and then pair up the
                 # normalized word from Sphinx with the actual word from the text
-                timings = []
                 normalize_word_chunk = lambda s: re.sub(r'\W', '', s).lower()
                 stip_punc = lambda s: re.sub(r'^\W+|\W+$', '', s)
+                current_verse = None
                 for raw_timing in raw_timings:
                     matches = re.match(r'(.+)\((.+),(.+)\)', raw_timing)
                     word = matches.group(1)
@@ -225,20 +233,37 @@ def align(argv):
                         skipped_words = 0
                         while True:
                             unnormalized_word_chunk = unnormalized_word_chunks.pop(0)
+                            
+                            # Detect the verses
+                            if unnormalized_word_chunk.startswith('[') and unnormalized_word_chunk.endswith(']'):
+                                current_verse = unnormalized_word_chunk.strip('[]')
+                                verse_timings[current_verse] = {'start': None, 'end': None}
+                                unnormalized_word_chunk = unnormalized_word_chunks.pop(0)
+                            
                             if word == normalize_word_chunk(unnormalized_word_chunk):
                                 word = stip_punc(unnormalized_word_chunk)
                                 break
                             skipped_words.append(unnormalized_word_chunk)
                             if len(skipped_words) > 5:
-                                print "Warning! Skipping several words: " + ", ".join(skipped_words)
+                                raise Exception("Skipping several words: " + ", ".join(skipped_words))
                     
-                    timings.append({
-                        "word":  word,
-                        "start": float(matches.group(2)),
-                        "end":   float(matches.group(3)),
+                    start = float(matches.group(2))
+                    end = float(matches.group(3))
+                    
+                    # Keep track of verse timings
+                    if verse_timings[current_verse]['start'] is None:
+                        verse_timings[current_verse]['start'] = start
+                    verse_timings[current_verse]['end'] = end
+                    
+                    # Record word timings
+                    word_timings.append({
+                        'word'  : word,
+                        'start' : start,
+                        'end'   : end,
                     })
+                
                 fo = codecs.open(timings_file, mode='w', encoding='utf-8')
-                fo.write(json.dumps(timings, indent=2))
+                fo.write(json.dumps({'verses': verse_timings, 'words': word_timings}, indent=2))
                 fo.close()
             else:
                 print "Text already aligned"
