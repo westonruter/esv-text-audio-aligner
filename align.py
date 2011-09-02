@@ -69,19 +69,28 @@ def align(argv):
     # Build the Java project
     cwd = os.path.realpath(os.curdir)
     os.chdir(long_audio_aligner_path)
-    print "Running ant...",
+    print "Running ant"
     retcode = subprocess.call(['ant'])
     if retcode != 0:
-        print "fail (have you ant?)"
-        sys.exit(1)
-    else:
-        print "done"
+        raise Exception("fail (have you ant?)")
     os.chdir(cwd)
     
     # Create the data directory which is where we put all the ESV data: audio, text, HTML, alignments
     if not path.exists(data_path):
         print "Making data dir"
         os.mkdir(data_path)
+    
+    def save_url(url, file, encoding=None):
+        """Fetch a URL and save if to file, throwing exception if HTTP fail"""
+        if encoding:
+            fo = codecs.open(file, mode='w', encoding=encoding)
+        else:
+            fo = open(file, 'w')
+        fi = urllib.urlopen(url)
+        if not fi.getcode() or fi.getcode() != 200:
+            raise Exception("Unable to fetch %s. Status code: %s" % (url, str(fi.getcode())))
+        fo.write(fi.read())
+        fo.close()
     
     for book in books:
         print "########################"
@@ -102,124 +111,100 @@ def align(argv):
                     book=book.name,
                     chapter=chapter
                 )
-                print "Downloading MP3...",
-                fi = urllib.urlopen(mp3_url)
-                if not fi.getcode() or fi.getcode() != 200:
-                    print "Failed, getcode =", fi.getcode()
-                    sys.exit(1)
-                else:
-                    print "done"
-                fo = open(mp3_file, 'w')
-                fo.write(fi.read())
-                fi.close()
-                fo.close()
+                print "Downloading MP3"
+                save_url(mp3_url, mp3_file)
             else:
                 print "Skipping MP3 (already-fetched)"
                 
             # Convert to WAV
             wav_file = mp3_file.replace('.mp3', '.wav')
             if not os.path.exists(wav_file):
-                print "Generating WAV file from MP3...",
+                print "Generating WAV file from MP3"
                 retcode = subprocess.call(['sox', mp3_file, wav_file, 'rate', '16k'])
                 if retcode != 0:
-                    print "fail (have you installed SoX?)"
-                    sys.exit(1)
-                else:
-                    print "done"
+                    raise Exception("fail (have you installed SoX?)")
             else:
                 print "Skipping WAV (already-generated)"
             
-            # Fetch text for chapter for Aligner
-            text_file = data_path + '/%s.%d.txt' % (book.osis, chapter)
-            if not path.exists(text_file):
-                print "Fetching text...",
-                params = (
-                    'key=IP',
-                    'output-format=plain-text',
-                    'passage=' + urllib.quote('{book}+{chapter}'.format(book=book.name, chapter=chapter)),
-                    'include-passage-references=false',
-                    'include-first-verse-numbers=false',
-                    'include-verse-numbers=false',
-                    'include-footnotes=false',
-                    'include-short-copyright=false',
-                    'include-passage-horizontal-lines=false',
-                    'include-heading-horizontal-lines=false',
-                    'include-headings=false',
-                    'include-subheadings=false',
-                    'include-selahs=true',
-                    'line-length=0',
-                )
-                text_url = 'http://www.esvapi.org/v2/rest/passageQuery?' + '&'.join(params)
-                fi = urllib.urlopen(text_url)
-                # @todo What is the encoding of the response??
-                if not fi.getcode() or fi.getcode() != 200:
-                    print "Failed, getcode =", fi.getcode()
-                    sys.exit(1)
-                else:
-                    print "done"
-                fo = open(text_file, 'w')
-                chapter_text = fi.read()
-                fo.write(chapter_text)
-                fi.close()
-                fo.close()
+            # Fetch text for chapter for Aligner, first verseless then versed
+            text_params = {
+                'key': 'IP',
+                'output-format': 'plain-text',
+                'passage': '{book} {chapter}'.format(book=book.name, chapter=chapter),
+                'include-passage-references': 'false',
+                'include-first-verse-numbers': 'false',
+                'include-footnotes': 'false',
+                'include-short-copyright': 'false',
+                'include-passage-horizontal-lines': 'false',
+                'include-heading-horizontal-lines': 'false',
+                'include-headings': 'false',
+                'include-subheadings': 'false',
+                'include-selahs': 'true',
+                'line-length': '0',
+            }
+            text_params['include-verse-numbers'] = 'false'
+            verseless_text_file = data_path + '/%s.%d.verseless.txt' % (book.osis, chapter)
+            if not path.exists(verseless_text_file):
+                print "Fetching verseless text"
+                # @todo What is the character encoding of the response??
+                text_url = 'http://www.esvapi.org/v2/rest/passageQuery?%s' % urllib.urlencode(text_params)
+                save_url(text_url, verseless_text_file, 'utf-8')
             else:
-                fi = codecs.open(text_file, mode='r', encoding='utf-8')
-                chapter_text = fi.read()
-                fi.close()
-                print "Skipping text (already-fetched)"
+                print "Skipping verseless text (already-fetched)"
+            
+            text_params['include-verse-numbers'] = 'true'
+            versed_text_file = data_path + '/%s.%d.versed.txt' % (book.osis, chapter)
+            if not path.exists(versed_text_file):
+                print "Fetching versed text"
+                # @todo What is the character encoding of the response??
+                text_url = 'http://www.esvapi.org/v2/rest/passageQuery?%s' % urllib.urlencode(text_params)
+                save_url(text_url, versed_text_file, 'utf-8')
+            else:
+                print "Skipping versed text (already-fetched)"
             
             # Fetch HTML for chapter
             html_file = data_path + '/%s.%d.html' % (book.osis, chapter)
             if not path.exists(html_file):
-                print "Fetching HTML...",
-                params = (
-                    'key=IP',
-                    'passage=' + urllib.quote('{book}+{chapter}'.format(book=book.name, chapter=chapter)),
-                    'include-passage-references=false',
-                    'include-first-verse-numbers=false',
-                    'include-verse-numbers=true',
-                    'include-footnotes=true',
-                    'include-surrounding-chapters=false',
-                    'include-audio-link=false',
-                    'include-short-copyright=false',
-                    'include-copyright=true',
-                )
-                html_url = 'http://www.esvapi.org/v2/rest/passageQuery?' + '&'.join(params)
-                fi = urllib.urlopen(html_url)
-                if not fi.getcode() or fi.getcode() != 200:
-                    print "Failed, getcode =", fi.getcode()
-                    sys.exit(1)
-                else:
-                    print "done"
-                fo = open(html_file, 'w')
-                fo.write(fi.read())
-                fi.close()
-                fo.close()
+                print "Fetching HTML"
+                params = {
+                    'key': 'IP',
+                    'passage': '{book} {chapter}'.format(book=book.name, chapter=chapter),
+                    'include-passage-references': 'false',
+                    'include-first-verse-numbers': 'false',
+                    'include-verse-numbers': 'true',
+                    'include-footnotes': 'true',
+                    'include-surrounding-chapters': 'false',
+                    'include-audio-link': 'false',
+                    'include-short-copyright': 'false',
+                    'include-copyright': 'true',
+                }
+                html_url = 'http://www.esvapi.org/v2/rest/passageQuery?%s' % urllib.urlencode(params)
+                save_url(html_url, html_file, 'utf-8')
             else:
                 print "Skipping HTML (already-fetched)"
             
             # Create batch file for this chapter
             f = open(long_audio_aligner_path + '/resource/batchFile.txt', 'w')
-            f.write('../data/{book}.{chapter}.txt ../data/{book}.{chapter}.wav'.format(book=book.osis, chapter=chapter))
+            f.write('../data/{book}.{chapter}.verseless.txt ../data/{book}.{chapter}.wav'.format(book=book.osis, chapter=chapter))
             f.close()
             
             # Now run the aligner on the batchFile
             timings_file = data_path + '/%s.%d.timings.json' % (book.osis, chapter)
             if not path.exists(timings_file) or is_force:
-                print "Aligning text...",
+                print "Aligning text"
                 
                 cwd = path.realpath(path.curdir)
                 os.chdir(long_audio_aligner_path)
                 retcode = subprocess.call(['java', '-Xmx3g', '-jar', 'bin/aligner.jar'])
                 if retcode != 0:
-                    print "fail (haz Java?)"
-                    sys.exit(0)
-                else:
-                    print "success"
+                    raise Exception("fail (haz Java?)")
                 os.chdir(cwd)
                 
                 # Chapter word segments
-                unnormalized_word_chunks = chapter_text.strip().split()
+                fi = codecs.open(versed_text_file, mode='r', encoding='utf-8')
+                chapter_text = fi.read()
+                fi.close()
+                unnormalized_word_chunks = re.sub(r'\[\d+\]', ' ', chapter_text).strip().split()
                 
                 # Copy the aligned output into the data directory
                 fi = codecs.open(long_audio_aligner_path + '/timedOutput/1.txt', encoding='utf-8')
@@ -268,4 +253,8 @@ def align(argv):
 
 # Run tests
 if __name__ == '__main__':
-    align(sys.argv[1:])
+    try:
+        align(sys.argv[1:])
+    except Exception as e:
+        print "Exception:", e
+        sys.exit(1)
