@@ -16,8 +16,7 @@ __Dependencies__: Python 2.7, java, ant, [sox](http://sox.sourceforge.net/), svn
 The ESV Text and MP3 data downloaded by this script is subject to [copyright](http://www.crossway.org/rights-permissions/esv/):
 
  > The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a
- > publishing ministry of Good News Publishers. Used by permission. All rights
- > reserved.
+ > publishing ministry of Good News Publishers. All rights reserved.
 
 ESV API usage terms (see [full conditions](http://www.esvapi.org/#conditions)):
 

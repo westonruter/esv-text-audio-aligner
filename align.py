@@ -11,8 +11,8 @@ Dependencies: Python 2.7, java, ant, sox, svn
 
 The ESV Text and MP3 data downloaded by this script is subject to copyright:
     The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a
-    publishing ministry of Good News Publishers. Used by permission. All rights
-    reserved. <http://www.crossway.org/rights-permissions/esv/>
+    publishing ministry of Good News Publishers. All rights reserved.
+    <http://www.crossway.org/rights-permissions/esv/>
 
 ESV API usage terms available from http://www.esvapi.org/
     You can access the ESV text using the key "IP" (without the quotes). This
@@ -276,7 +276,7 @@ def align(argv):
     print "Total execution time: %.02fs" % (clock() - init_start_time)
 
 
-# Run tests
+
 if __name__ == '__main__':
     try:
         align(sys.argv[1:])
