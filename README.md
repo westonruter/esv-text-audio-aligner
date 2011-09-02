@@ -4,7 +4,8 @@ ESV Text/Audio Aligner
 Pulls down the ESV text and audio from the ESV API, then aligns the text and
 audio chapter-by-chapter by means of [CMU Sphinx](http://cmusphinx.sourceforge.net/)
 and generates `{book}.{chapter}.timings.json` timing files in the `data/`
-directory. The audio and text for each chapter is also saved in this directory.
+directory (see [output for John 3](https://github.com/westonruter/esv-text-audio-aligner/blob/master/data/John.3.timings.json)).
+The audio and text for each chapter is also saved in this directory.
 Previously-aligned chapters are skipped unless `--force`d. There is an
 ongoing [discussion](http://sourceforge.net/projects/cmusphinx/forums/forum/382337/topic/4503550)
 on the CMU Sphinx forums on the quality of the alignment data it provides.
