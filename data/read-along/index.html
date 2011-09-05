@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ESV Read Along</title>
+        
+    </head>
+    <body>
+        <h1>ESV Read Along</h1>
+        
+        <audio id="audio"></audio>
+        <div id="text"></div>
+        
+        <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '../John.3.html');
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4){
+                document.getElementById('text').innerHTML = xhr.responseText;
+            }
+        };
+        try {
+            xhr.send(null);
+        }
+        catch(e){
+            var container = document.getElementById('data');
+            container.innerText = e.message;
+        }
+        </script>
+    </body>
+</html>

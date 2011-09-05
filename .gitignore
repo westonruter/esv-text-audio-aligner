@@ -3,5 +3,6 @@
 /data/*.wav
 /data/*.txt
 /data/*.html
+/data/*.json
 *.pyc
 *.komodoproject
