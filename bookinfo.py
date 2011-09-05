@@ -177,5 +177,11 @@ def get_book_subset(args):
 
 # Run tests
 if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
+    import sys
+    if '--json' in sys.argv:
+        import json
+        print json.dumps([book.__dict__ for book in books], indent=4)
+    else:
+        print "Running tests wthout without any args"
+        import doctest
+        doctest.testmod()
