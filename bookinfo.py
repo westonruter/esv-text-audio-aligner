@@ -181,6 +181,13 @@ if __name__ == '__main__':
     if '--json' in sys.argv:
         import json
         print json.dumps([book.__dict__ for book in books], indent=4)
+    elif '--js' in sys.argv:
+        import json
+        import re
+        bookinfo_json = json.dumps([book.__dict__ for book in books], indent=4)
+        bookinfo_js = re.sub(r'\[\s+(\d+)[^\]]+?(\d+)\s+\]', '_.range(\g<1>, \g<2>+1)', bookinfo_json, 0, re.S)
+        bookinfo_js = re.sub(r'\[\s+(\d+)\s+\]', '_.range(\g<1>, \g<1>+1)', bookinfo_js, 0, re.S)
+        print bookinfo_js
     else:
         print "Running tests wthout without any args"
         import doctest
