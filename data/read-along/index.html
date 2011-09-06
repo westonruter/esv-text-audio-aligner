@@ -3,29 +3,53 @@
     <head>
         <meta charset="utf-8">
         <title>ESV Read Along</title>
-        
+        <link rel=stylesheet href="style.css">
     </head>
     <body>
+        <p id="message" class=loading>Loading&hellip;
+            <noscript>
+                <span class=error>This will never finish loading because you have JavaScript disabled.</span>
+            </noscript>
+        </p>
+        
         <h1>ESV Read Along</h1>
         
-        <audio id="audio"></audio>
-        <div id="text"></div>
-        
-        <script>
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', '../John.3.html');
-        xhr.onreadystatechange = function(){
-            if(xhr.readyState == 4){
-                document.getElementById('text').innerHTML = xhr.responseText;
-            }
-        };
-        try {
-            xhr.send(null);
-        }
-        catch(e){
-            var container = document.getElementById('data');
-            container.innerText = e.message;
-        }
+        <div id="query_view"></div>
+        <script type="text/template" id="query_template">
+            <form action="javascript:">
+                <label for="book">Passage:</label>
+                <select id=book name=book>
+                    <% _.each(books, function(option){ %><option value="<%= option.value %>"><%= option.text %></option><% }); %>
+                </select>
+                <input type=number id=chapter name=chapter min=1 value=1 step=1 size=3>
+            </form>
         </script>
+        
+        
+        <div id="chapter_view"></div>
+        <script type="text/template" id="chapter_template">
+            <section>
+                <h2><%= title %></h2>
+                <audio>
+                
+                </audio>
+                <div class="text">
+                    <%= text %>
+                </div>
+            </section>
+        </script>
+        
+        <footer>
+            <a href="http://weston.ruter.net/" rel=author>Weston Ruter</a><br>
+            <a href="https://github.com/westonruter/esv-audio-timings">ESV Audio Timings</a><br>
+            <time>2011-09-04</time>
+        </footer>
+        
+        <script src="underscore.js"></script>
+        <script src="zepto.js"></script>
+        <script src="backbone.js"></script>
+        <script src="models.js"></script>
+        <script src="views.js"></script>
+        <!--<script src="main.js"></script>-->
     </body>
 </html>
