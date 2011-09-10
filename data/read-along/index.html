@@ -18,10 +18,11 @@
         <script type="text/template" id="query_template">
             <form action="javascript:">
                 <label for="book">Passage:</label>
-                <select id=book name=book>
+                <select id=book name=book required>
                     <% _.each(books, function(option){ %><option value="<%= option.value %>"><%= option.text %></option><% }); %>
                 </select>
-                <input type=number id=chapter name=chapter min=1 value=1 step=1 size=3>
+                <input type=number id=chapter name=chapter min=1 value=1 step=1 size=3 required>
+                <button type=submit>View</button>
             </form>
         </script>
         
@@ -46,10 +47,17 @@
         </footer>
         
         <script src="underscore.js"></script>
-        <script src="zepto.js"></script>
+        <!--<script src="zepto.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
         <script src="backbone.js"></script>
         <script src="models.js"></script>
         <script src="views.js"></script>
+        <script src="routes.js"></script>
+        <script>
+        //Backbone.history.start({
+            //root: "/read-along/"
+        //});
+        </script>
         <!--<script src="main.js"></script>-->
     </body>
 </html>
