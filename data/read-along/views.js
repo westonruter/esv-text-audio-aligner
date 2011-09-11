@@ -11,6 +11,9 @@ var ChapterView = Backbone.View.extend({
         };
         var template = _.template( $("#chapter_template").html(), vars );
         this.el.html( template );
+    },
+    open: function(book, chapter){
+        console.info('Opening: '+ book + '.' + chapter)
     }
 });
 
@@ -33,14 +36,31 @@ var QueryView = Backbone.View.extend({
         this.el.html( template );
         this.$('#book')[0].selectedIndex = -1;
         this.$('#chapter').val('');
-        this.$('form').submit(this.submitForm);
-        this.$('#book').change(this.onChangeBook);
     },
     
-    submitForm: function(e){
+
+    selectBook: function(book){
+        if( book == this.$('#book').val() ){
+            return;
+        }
+        this.$('#book').val(book).trigger('change');
+    },
+    selectChapter: function(chapter){
+        if( chapter == this.$('#chapter').val() ){
+            return;
+        }
+        this.$('#chapter').val(chapter);
+    },
+    
+    events: {
+        "submit form"   : "onSubmitForm",
+        "change #book"  : "onChangeBook"
+    },
+    
+    onSubmitForm: function(e){
         e.preventDefault();
-        var book = $(this).find('#book').val();
-        var chapter = $(this).find('#chapter').val();
+        var book = this.$('#book').val();
+        var chapter = this.$('#chapter').val();
         if( !book || !chapter ){
             alert("Oops! Your browser shouldn't have let you submit the form. You're missing values.");
             return;
@@ -48,24 +68,12 @@ var QueryView = Backbone.View.extend({
         app_router.navigate(book + '.' + chapter, true);
     },
     
-    selectBook: function(book){
-        if( book == this.$('#book').val() ){
-            return;
-        }
-        this.$('#book').val(book).trigger('change');
-    },
-    onChangeBook: function(){
-        var book = $(this).val();
+    onChangeBook: function(e){
+        var book = this.$('#book').val();
         var bookObj = _.first(ESVBible.select(function(bookObj){ return book == bookObj.get('osis'); }));
-        var $chapter = $(this).closest('form').find('#chapter');
+        var $chapter = this.$('#chapter');
         $chapter.attr('max', bookObj.get('chapters'));
         $chapter.val( Math.min($chapter.val(), bookObj.get('chapters')) );
-    },
-    selectChapter: function(chapter){
-        if( chapter == this.$('#chapter').val() ){
-            return;
-        }
-        this.$('#chapter').val(chapter);
     }
     
 });

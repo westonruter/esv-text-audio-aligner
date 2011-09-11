@@ -5,10 +5,9 @@ var AppRouter = Backbone.Router.extend({
         ":book.:chapter": "viewChapter"
     },
     viewChapter: function(book, chapter){
-        console.info('viewChapter', book, chapter)
-        
-        query_view.selectBook(book)
-        query_view.selectChapter(chapter)
+        query_view.selectBook(book);
+        query_view.selectChapter(chapter);
+        chapter_view.open(book, chapter);
     }
 });
 var app_router = new AppRouter();
