@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <title>ESV Read Along</title>
         <link rel=stylesheet href="style.css">
+        
     </head>
     <body>
-        <p id="message" class=loading>Loading&hellip;
-            <noscript>
-                <span class=error>This will never finish loading because you have JavaScript disabled.</span>
-            </noscript>
-        </p>
+        <ol id='notification_view' hidden></ol>
+        <script type="text/template" id="notification_template" aria-live="assertive">
+            <li title="Close notification" data-cid="<%= cid %>" class="notification <%= type %>"><%= message %></li>
+        </script>
         
         <h1>ESV Read Along</h1>
         
@@ -31,11 +31,9 @@
         <script type="text/template" id="chapter_template">
             <section>
                 <h2><%= title %></h2>
-                <audio>
-                
-                </audio>
+                <audio></audio>
                 <div class="text">
-                    <%= text %>
+                    <em>Loading...</em>
                 </div>
             </section>
         </script>

@@ -1,4 +1,12 @@
-
+var Notification = Backbone.Model.extend({
+    defaults: {
+        message: ""
+    }
+});
+var NotificationCollection = Backbone.Collection.extend({
+    model: Notification
+});
+var notifications = new NotificationCollection();
 
 var Book = Backbone.Model.extend({
     defaults: {
@@ -47,23 +55,72 @@ var Chapter = Backbone.Model.extend({
     ],
     initialize: function( attributes ){
         
-        
-        
-        
         // @todo Can this be async to fetch the html, audio urls
+    },
+    
+    loadData: function(callback){
+        var dataPath = '../';
+        var osisID = this.get('book').get('osis') + '.' + this.get('number');
+        
+        var requestQueue = [
+            {
+                url: dataPath + osisID + '.html',
+                property: 'text',
+                type: 'html'
+            },
+            {
+                url: dataPath + osisID + '.timings.json',
+                property: 'timings',
+                type: 'json'
+            }
+        ];
+        var completedRequestCount = 0; // TODO: Implement via promises?
+        
+        var responseData = {
+            errors: []
+        };
+        
+        _(requestQueue).each(function(request){
+            try {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', request.url);
+                xhr.onreadystatechange = function(){
+                    if(xhr.readyState == 4){
+                        completedRequestCount++;
+                        
+                        if(xhr.status == 200){
+                            var data = xhr.responseText;
+                            if( request.type == 'json' ){
+                                data = JSON.parse(data);
+                            }
+                            responseData[request.property] = data;
+                        }
+                        else {
+                            responseData.errors.push(new Error(xhr.statusText + ': ' + request.url));
+                        }
+                        
+                        if(completedRequestCount == requestQueue.length){
+                            callback(responseData);
+                        }
+                    }
+                };
+                xhr.send(null);
+            }
+            catch(e){
+                responseData.push(new Error(xhr.statusText));
+                callback(responseData);
+            }
+        });
+        
     }
-    // Load html, audio, text, timings
     
 });
 
 var Bible = Backbone.Collection.extend({
-    model: Book,
-    toString: function(){
-        return "Collection<Bible>";
-    }
+    model: Book
 });
 
-var ESVBible = new Bible([ // This array is generated via $ python bokinfo.py --js
+var esv_bible = new Bible([ // This array is generated via $ python bokinfo.py --js
     {
         "osis": "Gen", 
         "chapters": 50, 
@@ -395,7 +452,3 @@ var ESVBible = new Bible([ // This array is generated via $ python bokinfo.py --
         "name": "Revelation"
     }
 ]);
-//
-//console.info(ESVBible)
-//console.info(ESVBible.at(0).getChapter(1))
-//

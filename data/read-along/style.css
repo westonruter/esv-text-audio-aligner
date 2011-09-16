@@ -3,21 +3,23 @@ body {
 }
 
 
-#message {
+#notification_view {
     position: fixed;
-    left:0;
-    right:0;
+    left:30%;
+    right:30%;
     top:0;
     display:block;
-    padding:5px;
     min-height:25px;
     line-height:25px;
     font-size:15px;
     margin:0;
+    padding:0;
     
-    font-weight:bold;
-    font-style:italic;
     text-align:center;
+    
+    background: rgba(230,230,230,0.90);
+    border: solid 1px gray;
+    border-top: none;
     
     -webkit-border-bottom-right-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
@@ -26,13 +28,28 @@ body {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-
-#message.notice,
-#message.loading {
-    color:blue;
-    background:rgba(102, 204, 255, 0.5);
+#notification_view .notification {
+    list-style: none;
+    display: block;
+    cursor: pointer;
 }
-#message.error {
-    background:rgba(255, 204, 204, 0.5);
+#notification_view .notification:focus,
+#notification_view .notification:hover {
+    text-decoration: underline;
+}
+#notification_view .notification.error {
     color:red;
+    /*background: #FFCCCC;*/
+}
+
+#notification_view[hidden] {
+    display: none;
+}
+
+
+body > footer {
+    margin-top:2em;
+    padding-top:1em;
+    border-top:solid 1px gray;
+    font-size:smaller;
 }

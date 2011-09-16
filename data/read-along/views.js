@@ -1,19 +1,69 @@
+var NotificationView = Backbone.View.extend({
+    collection: null,
+    initialize: function(){
+        //this.notifications.create({message:'fp'})
+        var view = this;
+        
+        this.collection.bind("add", function(notification){
+            view.el.prop('hidden', false);
+            var item = _.template( $("#notification_template").html(), {
+                cid: notification.cid,
+                message: notification.get('message'),
+                type: notification.get('type')
+            });
+            view.el.prepend(item);
+        });
+        
+        this.collection.bind("remove", function(notification){
+            view.el.find('[data-cid="' + notification.cid + '"]').remove();
+            if(this.isEmpty()){
+                view.el.prop('hidden', true);
+            }
+        });
+        
+        this.render();
+    },
+    render: function(){
+        // This needs to list out all from the Notification collection
+    },
+    events: {
+        "click .notification": "clickItem"
+    },
+    clickItem: function(e){
+        var notification = this.collection.getByCid($(e.target).data('cid'));
+        this.collection.remove(notification);
+    }
+});
+var notification_view = new NotificationView({
+    el: $('#notification_view'),
+    collection: notifications
+});
 
 
 var ChapterView = Backbone.View.extend({
+    model: Chapter, // ???
+    
     initialize: function(){
-        this.render()
+        
     },
     render: function(){
         var vars = {
-            title: 'Unknown',
-            text: 'lorem ipsum'
+            title: this.model.get('book').get('name') + ' ' + this.model.get('number')
         };
         var template = _.template( $("#chapter_template").html(), vars );
         this.el.html( template );
-    },
-    open: function(book, chapter){
-        console.info('Opening: '+ book + '.' + chapter)
+        var view = this;
+        this.model.loadData(function(responseData){
+            if(responseData.errors.length){
+                _(responseData.errors).each(function(error){
+                    notifications.add({message: error.toString(), type:"error"});
+                });
+                view.$('.text').html('');
+            }
+            else {
+                view.$('.text').html(responseData.text);
+            }
+        });
     }
 });
 
@@ -27,7 +77,7 @@ var QueryView = Backbone.View.extend({
     },
     render: function(){
         var vars = {
-            books: ESVBible.map(function(book){ return {
+            books: esv_bible.map(function(book){ return {
                 text: book.get('name'),
                 value: book.get('osis')
             }})
@@ -39,17 +89,17 @@ var QueryView = Backbone.View.extend({
     },
     
 
-    selectBook: function(book){
-        if( book == this.$('#book').val() ){
+    selectBook: function(osisBook){
+        if( osisBook == this.$('#book').val() ){
             return;
         }
-        this.$('#book').val(book).trigger('change');
+        this.$('#book').val(osisBook).trigger('change');
     },
-    selectChapter: function(chapter){
-        if( chapter == this.$('#chapter').val() ){
+    selectChapter: function(chapterNumber){
+        if( chapterNumber == this.$('#chapter').val() ){
             return;
         }
-        this.$('#chapter').val(chapter);
+        this.$('#chapter').val(chapterNumber);
     },
     
     events: {
@@ -70,7 +120,7 @@ var QueryView = Backbone.View.extend({
     
     onChangeBook: function(e){
         var book = this.$('#book').val();
-        var bookObj = _.first(ESVBible.select(function(bookObj){ return book == bookObj.get('osis'); }));
+        var bookObj = _.first(esv_bible.select(function(bookObj){ return book == bookObj.get('osis'); }));
         var $chapter = this.$('#chapter');
         $chapter.attr('max', bookObj.get('chapters'));
         $chapter.val( Math.min($chapter.val(), bookObj.get('chapters')) );
