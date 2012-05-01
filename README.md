@@ -31,7 +31,7 @@ Background
 
 This project was birthed out of a desire to realize the read-along app, where
 the currently-spoken word in the audio is higlighted in the text on the screen.
-I made an [HTML5 Audio Read-Along prototype](http://weston.ruter.net/projects/html5-audio-read-along/)
+I made an [HTML5 Audio Read-Along prototype](https://github.com/westonruter/html5-audio-read-along#readme)
 (includes writeup) featuring a passage from Luke 2 of the ESV, but the actual audio timing
 data for the Luke 2 sample I had to obtain manually (read: painstakingly). This
 project aims to generate the audio word timings automatically so that the entire
