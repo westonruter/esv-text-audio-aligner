@@ -59,6 +59,7 @@ Align Genesis 1-3, Psalm 1, and all of Colossians:
 
 License
 -------
+Developed by [Weston Ruter](http://westonruter.github.com/) ([@westonruter](https://twitter.com/westonruter)).</p>
 Dual licensed under the MIT or GPL Version 2 licenses.  
 MIT License: http://creativecommons.org/licenses/MIT/  
 GPL 2.0 license: http://creativecommons.org/licenses/GPL/2.0/
