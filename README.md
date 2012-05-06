@@ -10,7 +10,7 @@ Previously-aligned chapters are skipped unless `--force`d. There is an
 ongoing [discussion](http://sourceforge.net/projects/cmusphinx/forums/forum/382337/topic/4503550)
 on the CMU Sphinx forums on the quality of the alignment data it provides.
 
-__Author__: Weston Ruter ([@westonruter](https://twitter.com/westonruter)) <http://weston.ruter.net/>  
+__Author__: [Weston Ruter](http://westonruter.github.com/) ([@westonruter](https://twitter.com/westonruter))  
 __GitHub__: https://github.com/westonruter/esv-audio-timings  
 __Dependencies__: Python 2.7, java, ant, [sox](http://sox.sourceforge.net/), svn
 
@@ -59,7 +59,6 @@ Align Genesis 1-3, Psalm 1, and all of Colossians:
 
 License
 -------
-Developed by [Weston Ruter](http://westonruter.github.com/) ([@westonruter](https://twitter.com/westonruter)).
 Dual licensed under the MIT or GPL Version 2 licenses.  
 MIT License: http://creativecommons.org/licenses/MIT/  
 GPL 2.0 license: http://creativecommons.org/licenses/GPL/2.0/
