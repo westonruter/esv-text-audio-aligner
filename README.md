@@ -9,8 +9,9 @@ The audio and text for each chapter is also saved in this directory.
 Previously-aligned chapters are skipped unless `--force`d. There is an
 ongoing [discussion](http://sourceforge.net/projects/cmusphinx/forums/forum/382337/topic/4503550)
 on the CMU Sphinx forums on the quality of the alignment data it provides.
+<hr>
 
-__Author__: [Weston Ruter](http://westonruter.github.com/) ([@westonruter](https://twitter.com/westonruter))  
+__Author__: <a href="https://plus.google.com/113853198722136596993" rel="author">Weston Ruter</a> (<a href="https://twitter.com/westonruter">@westonruter</a>)  
 __GitHub__: https://github.com/westonruter/esv-audio-timings  
 __Dependencies__: Python 2.7, java, ant, [sox](http://sox.sourceforge.net/), svn
 
