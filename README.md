@@ -12,7 +12,7 @@ on the CMU Sphinx forums on the quality of the alignment data it provides.
 <hr>
 
 __Author__: <a href="https://plus.google.com/113853198722136596993" rel="author">Weston Ruter</a> (<a href="https://twitter.com/westonruter">@westonruter</a>)  
-__GitHub__: https://github.com/westonruter/esv-audio-timings  
+__GitHub__: https://github.com/westonruter/esv-text-audio-aligner  
 __Dependencies__: Python 2.7, java, ant, [sox](http://sox.sourceforge.net/), svn
 
 The ESV Text and MP3 data downloaded by this script is subject to [copyright](http://www.crossway.org/rights-permissions/esv/):
